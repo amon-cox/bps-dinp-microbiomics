@@ -16,12 +16,12 @@ Additional authors and full affiliations will be added following manuscript subm
 
 ## License
 
-- Code in this repository is licensed under the MIT License (see `LICENSE`).
-- Data in the `data/` directory are licensed under the Creative Commons
-  Attribution 4.0 International license (CC BY 4.0; see `LICENSE-CC-BY-4.0`).
+- Code in the `scripts/` directory is licensed under the MIT License (see `LICENSE`).
+- Data, figures, and objects in the `data/` and `output/` directories are licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0; see `LICENSE-CC-BY-4.0`).
 
 ## Planned updates
 
+- [x] Add original data and project scaffolding
 - [ ] File structure and file guide
 - [ ] Code documentation and compatability updates (e.g. file.path() insertions)
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
