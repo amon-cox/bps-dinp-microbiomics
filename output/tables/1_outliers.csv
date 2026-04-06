@@ -1,0 +1,9 @@
+data_type,outlier,dose,cohort,age_week,dataset_name
+16s,BPS_high_wk22_inoculum_d0_C,high,BPS,wk22,BPS_high_wk22
+16s,DINP_high_wk40_inoculum_d0_C,high,DINP,wk40,DINP_high_wk40
+lcms,BPS_high_wk17_inoculum_d0_E,high,BPS,wk17,BPS_high_wk17
+lcms,DINP_high_wk07_dinp_d7_D,high,DINP,wk07,DINP_high_wk07
+lcms,DINP_high_wk22_control_d7_A,high,DINP,wk22,DINP_high_wk22
+lcms,BPS_low_wk12_bps_d7_G,low,BPS,wk12,BPS_low_wk12
+lcms,DINP_low_wk22_control_d2_G,low,DINP,wk22,DINP_low_wk22
+lcms,DINP_low_wk22_dinp_d7_G,low,DINP,wk22,DINP_low_wk22

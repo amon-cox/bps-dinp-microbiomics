@@ -16,4 +16,4 @@ metadata <- read_csv(file.path("data", "sample_metadata.csv")) |>
 
 # exposure colors: blue for inoculum, green for control, reddish-orange for bps, reddish-pink for dinp
 
-source(file.path("scripts", "1_preprocess.r"))
+#source(file.path("scripts", "1_preprocess.r"))
