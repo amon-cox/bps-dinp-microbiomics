@@ -22,6 +22,12 @@ Additional authors and full affiliations will be added following manuscript subm
 ## Planned updates
 
 - [x] Add original data and project scaffolding
-- [ ] File structure and file guide
-- [ ] Code documentation and compatability updates (e.g. file.path() insertions)
+- [ ] Code restructuring and compatability updates (e.g. file.path() insertions)
+  - [ ] run_all.r
+  - [x] 1_preprocess.r
+  - [ ] 2_pca_and_outliers.r
+  - [ ] 3_pcoa.r
+  - [ ] 4_limma.r
+  - [ ] ...
+- [ ] File guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
