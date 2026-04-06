@@ -25,9 +25,8 @@ Additional authors and full affiliations will be added following manuscript subm
 - [ ] Code restructuring and compatability updates (e.g. file.path() insertions)
   - [ ] run_all.r
   - [x] 1_preprocess.r
-  - [ ] 2_pca_and_outliers.r
-  - [ ] 3_pcoa.r
-  - [ ] 4_limma.r
+  - [ ] 2_pcoa.r
+  - [ ] 3_limma.r
   - [ ] ...
 - [ ] File guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
