@@ -1,0 +1,5 @@
+PERMANOVA,R2,p_val
+global: exposure,0.1728,0.001
+d1: exposure,0.1004,0.0312
+d2: exposure,0.0938,0.0781
+d7: exposure,0.1153,0.0156
