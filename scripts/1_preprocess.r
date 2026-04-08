@@ -160,5 +160,6 @@ outliers_full |>
         by = c("outlier" = "sample")
     ) |>
     arrange(data_type, dose, cohort, age_week) |>
-    relocate(data_type, outlier, dose, cohort, age_week, dataset_name) |>
+    relocate(data_type, outlier, dose, cohort, age_week) |>
+    select(-dataset_name) |>
     write_csv(file.path("output", "tables", "1_outliers.csv"))

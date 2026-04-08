@@ -81,3 +81,166 @@ map2(
     .y = names(lcms_distances),
     .f = \(x, y) permanova_by_set(ds = x, ds_name = y)
 )
+
+## plot each cohort and dose by week, then arrange into panels
+### prepare plotting function
+pcoa_by_set <- function(ds, ds_name) {
+
+    parts <- strsplit(ds_name, "_") |> unlist()
+    cohort <- parts[1]
+    dose <- parts[2]
+    age_week <- parts[3]
+
+    #### multidimensional scaling, i.e. principal coordinates analysis
+    pcoa <- cmdscale(d = ds, k = 2) |>
+        as.data.frame() |>
+        rownames_to_column("sample") |>
+        left_join(y = metadata, by = "sample")
+
+    #### plotting
+    p <- ggplot(pcoa, aes(x = V1, y = V2, fill = exposure)) +
+        geom_point(aes(shape = culture_day,  color = exposure,), size = 1.75, alpha = 0.8, stroke = 1) +
+        scale_color_manual(
+            aesthetics = c("color", "fill"),
+            values = exposure_color_palette,
+            drop = TRUE
+        ) +
+        stat_ellipse(geom = "polygon", alpha = 0.2) +
+        theme_classic(12) +
+        theme(
+            legend.position = "none",
+            plot.margin = margin(t = 0.25, r = 0.25, b = 0.25, l = 0.25, unit = "cm"),
+            legend.title = element_text(face = "bold")
+        ) + 
+        coord_fixed(
+            ratio = 1,
+            xlim = range(pcoa[ , c("V1", "V2")]) * 1.5,
+            ylim = range(pcoa[ , c("V1", "V2")]) * 1.5
+        ) +
+        labs(x = "component 1", y = "component 2", title = ds_name)
+    
+    #### save info for setting up panel later
+    tbl <- tibble(
+        dataset = ds_name,
+        cohort = cohort,
+        dose = dose,
+        age_week = age_week,
+        plot = list(p)
+    )
+}
+
+### store all plotting info
+pcoa_tbl <- map2_dfr(
+    .x = lcms_distances,
+    .y = names(lcms_distances),
+    .f = pcoa_by_set
+)
+
+### arrange panels by cohort x dose
+#### dummy plot for shared legend
+legend_df <- expand.grid(
+    exposure = factor(c("inoculum", "control", "bps", "dinp"),
+        levels = c("inoculum", "control", "bps", "dinp")),
+    culture_day = factor(c("d0", "d2", "d7"),
+        levels = c("d0", "d2", "d7"))
+)
+
+legend_plot <- ggplot(legend_df, aes(x = 1, y = 1, fill = exposure)) +
+    geom_point(aes(shape = culture_day, color = exposure), size = 2) +
+    scale_color_manual(
+        aesthetics = c("colour", "fill"),
+        values = exposure_color_palette,
+        drop = FALSE
+    ) +
+    theme_void() +
+    theme(
+        legend.position = "right",
+        legend.title = element_text(face = "bold")
+    )
+
+shared_legend <- get_legend(legend_plot)
+
+#### 100uM BPS panel
+panel_bps <- pcoa_tbl |>
+    filter(cohort == "BPS", dose == "high") |>
+    arrange(age_week) |>
+    pull(plot) |>
+    (\(.x) {
+        legend <- get_legend(.x[[1]] + theme(legend.position = "right"))
+
+        pl <- plot_grid(
+            plotlist = .x,
+            labels = c("A", "B", "C", "D", "E", ""),
+            nrow = 2
+        )
+        
+        pl_final <- pl + draw_grob(
+            legend, 
+            x = 4.6/6, y = 1/6, width = 0.2, height = 0.2
+        )
+    })()
+
+ggsave(
+    filename = file.path("output", "figures", "2_pcoa_high-BPS.png"),
+    plot = panel_bps,
+    bg = "white",
+    height = 5.75,
+    width = 8,
+    dpi = 300
+)
+
+#### 100uM DINP panel
+panel_dinp <- pcoa_tbl |>
+    filter(cohort == "DINP", dose == "high") |>
+    arrange(age_week) |>
+    pull(plot) |>
+    (\(.x) {
+        legend <- get_legend(.x[[1]] + theme(legend.position = "right"))
+
+        pl <- plot_grid(
+            plotlist = .x,
+            labels = c("A", "B", "C", "D", "E", ""),
+            nrow = 2
+        )
+        
+        pl_final <- pl + draw_grob(
+            legend, 
+            x = 4.6/6, y = 1/6, width = 0.2, height = 0.2
+        )
+    })()
+
+ggsave(
+    filename = file.path("output", "figures", "2_pcoa_high-DINP.png"),
+    plot = panel_dinp,
+    bg = "white",
+    height = 5.75,
+    width = 8,
+    dpi = 300
+)
+
+#### 10uM panel
+panel_low <- pcoa_tbl |>
+    filter(dose == "low") |>
+    arrange(cohort, age_week) |>
+    pull(plot) |>
+    (\(.x) {
+        pl <- plot_grid(
+            plotlist = .x,
+            labels = c("A", "B", "C", "D", "E", ""),
+            nrow = 2
+        )
+        
+        pl_final <- pl + draw_grob(
+            shared_legend, 
+            x = 4.6/6, y = 1/6, width = 0.2, height = 0.2
+        )
+    })()
+
+ggsave(
+    filename = file.path("output", "figures", "2_pcoa_low-select.png"),
+    plot = panel_low,
+    bg = "white",
+    height = 5.75,
+    width = 8,
+    dpi = 300
+)

@@ -6,7 +6,7 @@ Working title: Investigating the Influence of Host Age on Murine Microbial Respo
 
 ## Project status
 
-This repository contains analysis code and processed data for an unpublished research manuscript currently in preparation for submission. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing.
+This repository contains analysis code, data, and results for an unpublished research manuscript currently in preparation for submission. The code contained here is a reorganization of the original analytical code, incorporating updates for reproducibility and compatability between operating systems. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing.
 
 ## Authorship and affiliation
 
@@ -25,7 +25,7 @@ Additional authors and full affiliations will be added following manuscript subm
 - [ ] Code restructuring and compatability updates (e.g. file.path() insertions)
   - [ ] run_all.r
   - [x] 1_preprocess.r
-  - [ ] 2_pcoa.r
+  - [x] 2_lcms_profiling.r
   - [ ] 3_limma.r
   - [ ] ...
 - [ ] File guide
