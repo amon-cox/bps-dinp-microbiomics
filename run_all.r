@@ -14,6 +14,7 @@ library(cowplot)
 ## stats
 library(caret)
 library(vegan)
+library(limma)
 
 ## prepare the metadata ahead of running scripts
 metadata <- read_csv(file.path("data", "sample_metadata.csv")) |>

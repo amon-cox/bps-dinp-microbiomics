@@ -22,11 +22,20 @@ Additional authors and full affiliations will be added following manuscript subm
 ## Planned updates
 
 - [x] Add original data and project scaffolding
-- [ ] Code restructuring and compatability updates (e.g. file.path() insertions)
+- [ ] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility)
   - [ ] run_all.r
   - [x] 1_preprocess.r
   - [x] 2_lcms_profiling.r
-  - [ ] 3_limma.r
+  - [ ] 3_lcms_limma.r
+    - [x] Apply limma
+    - [ ] Compare limma results
+  - [ ] 4_lcms_annotation.r
+  - [ ] 5_lcms_pathway_annotation.r
+  - [ ] 6_lcms_pathway_analyses.r
+  - [ ] 7_16s_profiling.r
+  - [ ] 8_16s_diversity.r
+  - [ ] 9_compare_pathways.r
+  - [ ] 10_compare_inocula.r
   - [ ] ...
 - [ ] File guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
