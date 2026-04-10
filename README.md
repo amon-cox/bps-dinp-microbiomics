@@ -32,7 +32,7 @@ Additional authors and full affiliations will be added following manuscript subm
   - [ ] 4_lcms_annotation.r
   - [ ] 5_lcms_pathway_annotation.r
   - [ ] 6_lcms_pathway_analyses.r
-  - [ ] 7_16s_profiling.r
+  - [x] 7_16s_composition.r
   - [ ] 8_16s_diversity.r
   - [ ] 9_compare_pathways.r
   - [ ] 10_compare_inocula.r

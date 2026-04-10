@@ -15,6 +15,7 @@ library(cowplot)
 library(caret)
 library(vegan)
 library(limma)
+library(forcats)
 
 ## prepare the metadata ahead of running scripts
 metadata <- read_csv(file.path("data", "sample_metadata.csv")) |>
@@ -30,3 +31,6 @@ names(exposure_color_palette) <- levels(metadata$exposure)
 ## call analytical scripts in sequence
 #source(file.path("scripts", "1_preprocess.r"))
 #source(file.path("scripts", "2_lcms_profiling.r"))
+#source(file.path("scripts", "3_lcms_limma.r"))
+
+#source(file.path("scripts", "7_16s_composition.r"))
