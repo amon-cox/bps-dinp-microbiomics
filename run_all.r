@@ -1,11 +1,12 @@
 # R script to run all analyses and figure generations in sequence.
 
-## core packages
+## data management
 library(tibble)
 library(readr)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(forcats)
 
 ## visualizations
 library(ggplot2)
@@ -15,7 +16,9 @@ library(cowplot)
 library(caret)
 library(vegan)
 library(limma)
-library(forcats)
+library(FSA)
+
+library(pairwiseAdonis) # remotes::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 
 ## prepare the metadata ahead of running scripts
 metadata <- read_csv(file.path("data", "sample_metadata.csv")) |>

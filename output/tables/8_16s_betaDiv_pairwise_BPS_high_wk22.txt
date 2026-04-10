@@ -1,0 +1,81 @@
+$parent_call
+[1] "bray_dism ~ group , strata = Null , permutations 999"
+
+$inoculum_d0_vs_control_d2
+         Df SumOfSqs      R2      F Pr(>F)  
+Model     1 0.042142 0.21087 2.9394  0.025 *
+Residual 11 0.157707 0.78913                
+Total    12 0.199848 1.00000                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$inoculum_d0_vs_bps_d2
+         Df SumOfSqs      R2      F Pr(>F)  
+Model     1 0.045571 0.24212 3.5142  0.014 *
+Residual 11 0.142645 0.75788                
+Total    12 0.188217 1.00000                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$inoculum_d0_vs_control_d7
+         Df SumOfSqs      R2      F Pr(>F)   
+Model     1  0.12555 0.54094 12.962  0.002 **
+Residual 11  0.10655 0.45906                 
+Total    12  0.23210 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$inoculum_d0_vs_bps_d7
+         Df SumOfSqs     R2      F Pr(>F)    
+Model     1  0.11760 0.5057 11.254  0.001 ***
+Residual 11  0.11495 0.4943                  
+Total    12  0.23255 1.0000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$control_d2_vs_bps_d2
+         Df SumOfSqs      R2      F Pr(>F)
+Model     1 0.000703 0.00334 0.0403  0.988
+Residual 12 0.209664 0.99666              
+Total    13 0.210368 1.00000              
+
+$control_d2_vs_control_d7
+         Df SumOfSqs      R2      F Pr(>F)   
+Model     1  0.10390 0.37445 7.1831  0.004 **
+Residual 12  0.17357 0.62555                 
+Total    13  0.27746 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$control_d2_vs_bps_d7
+         Df SumOfSqs      R2      F Pr(>F)   
+Model     1  0.10034 0.35542 6.6169  0.002 **
+Residual 12  0.18197 0.64458                 
+Total    13  0.28231 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$bps_d2_vs_control_d7
+         Df SumOfSqs     R2      F Pr(>F)   
+Model     1  0.11744 0.4256 8.8912  0.003 **
+Residual 12  0.15851 0.5744                 
+Total    13  0.27595 1.0000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$bps_d2_vs_bps_d7
+         Df SumOfSqs     R2     F Pr(>F)    
+Model     1  0.11337 0.4045 8.151  0.001 ***
+Residual 12  0.16691 0.5955                 
+Total    13  0.28028 1.0000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$control_d7_vs_bps_d7
+         Df SumOfSqs      R2      F Pr(>F)
+Model     1 0.000373 0.00284 0.0342  0.978
+Residual 12 0.130811 0.99716              
+Total    13 0.131184 1.00000              
+
+attr(,"class")
+[1] "pwadstrata" "list"      
