@@ -109,8 +109,7 @@ pcoa_by_set <- function(ds, ds_name) {
         theme_classic(12) +
         theme(
             legend.position = "none",
-            plot.margin = margin(t = 0.25, r = 0.25, b = 0.25, l = 0.25, unit = "cm"),
-            legend.title = element_text(face = "bold")
+            plot.margin = margin(t = 0.25, r = 0.25, b = 0.25, l = 0.25, unit = "cm")
         ) + 
         coord_fixed(
             ratio = 1,
@@ -166,7 +165,10 @@ panel_bps <- pcoa_tbl |>
     arrange(age_week) |>
     pull(plot) |>
     (\(.x) {
-        legend <- get_legend(.x[[1]] + theme(legend.position = "right"))
+        legend <- get_legend(.x[[1]] + theme(
+            legend.position = "right"),
+            legend.title = element_text(face = "bold")
+        )
 
         pl <- plot_grid(
             plotlist = .x,
@@ -195,7 +197,10 @@ panel_dinp <- pcoa_tbl |>
     arrange(age_week) |>
     pull(plot) |>
     (\(.x) {
-        legend <- get_legend(.x[[1]] + theme(legend.position = "right"))
+        legend <- get_legend(.x[[1]] + theme(
+            legend.position = "right"),
+            legend.title = element_text(face = "bold")
+        )
 
         pl <- plot_grid(
             plotlist = .x,
