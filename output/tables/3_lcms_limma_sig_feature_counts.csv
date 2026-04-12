@@ -1,0 +1,16 @@
+dataset,d1,d2,d7,total_unique
+BPS_high_wk07,98,102,111,158
+BPS_high_wk12,120,154,124,204
+BPS_high_wk17,110,138,104,195
+BPS_high_wk22,414,185,380,636
+BPS_high_wk40,38,14,20,49
+BPS_low_wk07,0,11,2,11
+BPS_low_wk12,0,4,21,23
+BPS_low_wk22,0,0,2,2
+DINP_high_wk07,4,3,4,5
+DINP_high_wk12,7,5,6,8
+DINP_high_wk17,3,7,1,8
+DINP_high_wk22,6,6,1339,1340
+DINP_high_wk40,378,371,348,385
+DINP_low_wk22,0,17,0,17
+DINP_low_wk40,0,0,3,3
