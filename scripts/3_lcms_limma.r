@@ -83,9 +83,8 @@ limma_by_age <- function(df, df_name) {
 ### run limma function on data list
 set.seed(123)
 
-map2(
+imap(
     .x = lcms_peaks_processed,
-    .y = names(lcms_peaks_processed),
     .f = limma_by_age
 )
 

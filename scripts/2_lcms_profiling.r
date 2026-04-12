@@ -76,11 +76,7 @@ permanova_by_set <- function(ds, ds_name) {
     )
 }
 
-map2(
-    .x = lcms_distances,
-    .y = names(lcms_distances),
-    .f = \(x, y) permanova_by_set(ds = x, ds_name = y)
-)
+imap(.x = lcms_distances, .f = permanova_by_set)
 
 ## plot each cohort and dose by week, then arrange into panels
 ### prepare plotting function
@@ -166,9 +162,9 @@ panel_bps <- pcoa_tbl |>
     pull(plot) |>
     (\(.x) {
         legend <- get_legend(.x[[1]] + theme(
-            legend.position = "right"),
+            legend.position = "right",
             legend.title = element_text(face = "bold")
-        )
+        ))
 
         pl <- plot_grid(
             plotlist = .x,
@@ -198,9 +194,9 @@ panel_dinp <- pcoa_tbl |>
     pull(plot) |>
     (\(.x) {
         legend <- get_legend(.x[[1]] + theme(
-            legend.position = "right"),
+            legend.position = "right",
             legend.title = element_text(face = "bold")
-        )
+        ))
 
         pl <- plot_grid(
             plotlist = .x,
