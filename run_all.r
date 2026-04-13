@@ -17,6 +17,7 @@ library(caret)
 library(vegan)
 library(limma)
 library(FSA)
+library(Maaslin2)
 
 library(pairwiseAdonis) # remotes::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 
@@ -37,3 +38,5 @@ names(exposure_color_palette) <- levels(metadata$exposure)
 #source(file.path("scripts", "3_lcms_limma.r"))
 
 #source(file.path("scripts", "7_16s_composition.r"))
+#source(file.path("scripts", "8_16s_diversity.r"))
+#source(file.path("scripts", "9_16s_maaslin.r"))
