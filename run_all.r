@@ -18,7 +18,6 @@ library(vegan)
 library(limma)
 library(FSA)
 library(Maaslin2)
-
 library(pairwiseAdonis) # remotes::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 
 ## prepare the metadata ahead of running scripts
