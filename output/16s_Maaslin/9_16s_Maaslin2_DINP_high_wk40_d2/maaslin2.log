@@ -1,0 +1,112 @@
+2026-04-15 14:57:48.80391 INFO::Writing function arguments to log file
+2026-04-15 14:57:48.80434 DEBUG::Function arguments
+2026-04-15 14:57:48.804487 DEBUG::Output folder: output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2
+2026-04-15 14:57:48.804617 DEBUG::Min Abundance: 0.000100
+2026-04-15 14:57:48.804743 DEBUG::Min Prevalence: 0.100000
+2026-04-15 14:57:48.804863 DEBUG::Normalization: NONE
+2026-04-15 14:57:48.804984 DEBUG::Transform: AST
+2026-04-15 14:57:48.805103 DEBUG::Analysis method: LM
+2026-04-15 14:57:48.80522 DEBUG::Max significance: 0.250000
+2026-04-15 14:57:48.805336 DEBUG::Random effects: replicate
+2026-04-15 14:57:48.80545 DEBUG::Fixed effects: exposure
+2026-04-15 14:57:48.805562 DEBUG::Correction method: BH
+2026-04-15 14:57:48.805677 DEBUG::Standardize: TRUE
+2026-04-15 14:57:48.805788 DEBUG::Cores: 1
+2026-04-15 14:57:48.805897 INFO::Verifying options selected are valid
+2026-04-15 14:57:48.80624 INFO::Determining format of input files
+2026-04-15 14:57:48.80656 INFO::Input format is data samples as rows and metadata samples as rows
+2026-04-15 14:57:48.806982 DEBUG::A total of 14 samples were found in both the data and metadata
+2026-04-15 14:57:48.807102 DEBUG::Reordering data/metadata to use same sample ordering
+2026-04-15 14:57:48.80755 INFO::Formula for random effects: expr ~ (1 | replicate)
+2026-04-15 14:57:48.807931 INFO::Formula for fixed effects: expr ~  exposure
+2026-04-15 14:57:48.808414 INFO::Filter data based on min abundance and min prevalence
+2026-04-15 14:57:48.808757 INFO::Total samples in data: 14
+2026-04-15 14:57:48.809075 INFO::Min samples required with min abundance for a feature not to be filtered: 1.400000
+2026-04-15 14:57:48.809816 INFO::Total filtered features: 29
+2026-04-15 14:57:48.810143 INFO::Filtered feature names from abundance and prevalence filtering: ASV040, ASV053, ASV065, ASV067, ASV075, ASV077, ASV080, ASV082, ASV083, ASV085, ASV087, ASV088, ASV090, ASV091, ASV092, ASV093, ASV099, ASV102, ASV106, ASV108, ASV111, ASV114, ASV121, ASV123, ASV126, ASV134, ASV136, ASV142, ASV153
+2026-04-15 14:57:48.810965 INFO::Total filtered features with variance filtering: 0
+2026-04-15 14:57:48.811283 INFO::Filtered feature names from variance filtering:
+2026-04-15 14:57:48.811588 INFO::Running selected normalization method: NONE
+2026-04-15 14:57:48.811888 INFO::Applying z-score to standardize continuous metadata
+2026-04-15 14:57:48.812939 INFO::Running selected transform method: AST
+2026-04-15 14:57:48.81363 INFO::Running selected analysis method: LM
+2026-04-15 14:57:48.814164 INFO::Fitting model to feature number 1, ASV001
+2026-04-15 14:57:48.830404 INFO::Fitting model to feature number 2, ASV002
+2026-04-15 14:57:48.846218 INFO::Fitting model to feature number 3, ASV003
+2026-04-15 14:57:48.866694 INFO::Fitting model to feature number 4, ASV004
+2026-04-15 14:57:48.882078 INFO::Fitting model to feature number 5, ASV005
+2026-04-15 14:57:48.898042 INFO::Fitting model to feature number 6, ASV006
+2026-04-15 14:57:48.913677 INFO::Fitting model to feature number 7, ASV007
+2026-04-15 14:57:48.929164 INFO::Fitting model to feature number 8, ASV008
+2026-04-15 14:57:48.944647 INFO::Fitting model to feature number 9, ASV009
+2026-04-15 14:57:48.960007 INFO::Fitting model to feature number 10, ASV010
+2026-04-15 14:57:48.975414 INFO::Fitting model to feature number 11, ASV011
+2026-04-15 14:57:49.017892 INFO::Fitting model to feature number 12, ASV012
+2026-04-15 14:57:49.034198 INFO::Fitting model to feature number 13, ASV013
+2026-04-15 14:57:49.049715 INFO::Fitting model to feature number 14, ASV014
+2026-04-15 14:57:49.065866 INFO::Fitting model to feature number 15, ASV015
+2026-04-15 14:57:49.081595 INFO::Fitting model to feature number 16, ASV016
+2026-04-15 14:57:49.097647 INFO::Fitting model to feature number 17, ASV017
+2026-04-15 14:57:49.114116 INFO::Fitting model to feature number 18, ASV018
+2026-04-15 14:57:49.131401 INFO::Fitting model to feature number 19, ASV019
+2026-04-15 14:57:49.14816 INFO::Fitting model to feature number 20, ASV020
+2026-04-15 14:57:49.168853 INFO::Fitting model to feature number 21, ASV021
+2026-04-15 14:57:49.18469 INFO::Fitting model to feature number 22, ASV022
+2026-04-15 14:57:49.200439 INFO::Fitting model to feature number 23, ASV023
+2026-04-15 14:57:49.216034 INFO::Fitting model to feature number 24, ASV024
+2026-04-15 14:57:49.2316 INFO::Fitting model to feature number 25, ASV025
+2026-04-15 14:57:49.247374 INFO::Fitting model to feature number 26, ASV027
+2026-04-15 14:57:49.263079 INFO::Fitting model to feature number 27, ASV028
+2026-04-15 14:57:49.279055 INFO::Fitting model to feature number 28, ASV029
+2026-04-15 14:57:49.298807 INFO::Fitting model to feature number 29, ASV030
+2026-04-15 14:57:49.315264 INFO::Fitting model to feature number 30, ASV032
+2026-04-15 14:57:49.330966 INFO::Fitting model to feature number 31, ASV033
+2026-04-15 14:57:49.346896 INFO::Fitting model to feature number 32, ASV034
+2026-04-15 14:57:49.362598 INFO::Fitting model to feature number 33, ASV035
+2026-04-15 14:57:49.37836 INFO::Fitting model to feature number 34, ASV036
+2026-04-15 14:57:49.393826 INFO::Fitting model to feature number 35, ASV037
+2026-04-15 14:57:49.409176 INFO::Fitting model to feature number 36, ASV038
+2026-04-15 14:57:49.424587 INFO::Fitting model to feature number 37, ASV039
+2026-04-15 14:57:49.444811 INFO::Fitting model to feature number 38, ASV041
+2026-04-15 14:57:49.460325 INFO::Fitting model to feature number 39, ASV042
+2026-04-15 14:57:49.476084 INFO::Fitting model to feature number 40, ASV043
+2026-04-15 14:57:49.491841 INFO::Fitting model to feature number 41, ASV044
+2026-04-15 14:57:49.507652 INFO::Fitting model to feature number 42, ASV045
+2026-04-15 14:57:49.523192 INFO::Fitting model to feature number 43, ASV046
+2026-04-15 14:57:49.538802 INFO::Fitting model to feature number 44, ASV048
+2026-04-15 14:57:49.554983 INFO::Fitting model to feature number 45, ASV049
+2026-04-15 14:57:49.57147 INFO::Fitting model to feature number 46, ASV051
+2026-04-15 14:57:49.592098 INFO::Fitting model to feature number 47, ASV055
+2026-04-15 14:57:49.607478 INFO::Fitting model to feature number 48, ASV056
+2026-04-15 14:57:49.623184 INFO::Fitting model to feature number 49, ASV058
+2026-04-15 14:57:49.6388 INFO::Fitting model to feature number 50, ASV059
+2026-04-15 14:57:49.654418 INFO::Fitting model to feature number 51, ASV061
+2026-04-15 14:57:49.670096 INFO::Fitting model to feature number 52, ASV062
+2026-04-15 14:57:49.685752 INFO::Fitting model to feature number 53, ASV063
+2026-04-15 14:57:49.70158 INFO::Fitting model to feature number 54, ASV066
+2026-04-15 14:57:49.721496 INFO::Fitting model to feature number 55, ASV068
+2026-04-15 14:57:49.737531 INFO::Fitting model to feature number 56, ASV069
+2026-04-15 14:57:49.753304 INFO::Fitting model to feature number 57, ASV070
+2026-04-15 14:57:49.769046 INFO::Fitting model to feature number 58, ASV071
+2026-04-15 14:57:49.784966 INFO::Fitting model to feature number 59, ASV072
+2026-04-15 14:57:49.80088 INFO::Fitting model to feature number 60, ASV073
+2026-04-15 14:57:49.816269 INFO::Fitting model to feature number 61, ASV079
+2026-04-15 14:57:49.831593 INFO::Fitting model to feature number 62, ASV081
+2026-04-15 14:57:49.847245 INFO::Fitting model to feature number 63, ASV084
+2026-04-15 14:57:49.867776 INFO::Fitting model to feature number 64, ASV086
+2026-04-15 14:57:49.883409 INFO::Fitting model to feature number 65, ASV095
+2026-04-15 14:57:49.898987 INFO::Fitting model to feature number 66, ASV097
+2026-04-15 14:57:49.914804 INFO::Fitting model to feature number 67, ASV098
+2026-04-15 14:57:49.93044 INFO::Fitting model to feature number 68, ASV105
+2026-04-15 14:57:49.94607 INFO::Fitting model to feature number 69, ASV115
+2026-04-15 14:57:49.964835 INFO::Counting total values for each feature
+2026-04-15 14:57:49.966522 INFO::Writing filtered data to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/features/filtered_data.tsv
+2026-04-15 14:57:49.967884 INFO::Writing filtered, normalized data to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/features/filtered_data_norm.tsv
+2026-04-15 14:57:49.969008 INFO::Writing filtered, normalized, transformed data to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/features/filtered_data_norm_transformed.tsv
+2026-04-15 14:57:49.970203 INFO::Writing residuals to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/fits/residuals.rds
+2026-04-15 14:57:49.970836 INFO::Writing fitted values to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/fits/fitted.rds
+2026-04-15 14:57:49.971404 INFO::Writing extracted random effects to file output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/fits/ranef.rds
+2026-04-15 14:57:49.971926 INFO::Writing all results to file (ordered by increasing q-values): output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/all_results.tsv
+2026-04-15 14:57:49.972753 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/significant_results.tsv
+2026-04-15 14:57:49.973207 INFO::Writing heatmap of significant results to file: output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2/heatmap.pdf
+2026-04-15 14:57:49.973767 INFO::Writing association plots (one for each significant association) to output folder: output/16s_Maaslin/9_16s_Maaslin2_DINP_high_wk40_d2
