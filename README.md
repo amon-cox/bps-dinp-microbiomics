@@ -27,7 +27,7 @@ Additional authors and full affiliations will be added following manuscript subm
   - [x] 1_preprocess.r
   - [x] 2_lcms_profiling.r
   - [x] 3_lcms_limma.r
-  - [ ] 4_lcms_annotation.r
+  - [ ] 4_lcms_sig_annotation.r
   - [ ] 5_lcms_pathway_annotation.r
   - [ ] 6_lcms_pathway_analyses.r
   - [x] 7_16s_composition.r

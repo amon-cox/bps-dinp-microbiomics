@@ -163,3 +163,50 @@ outliers_full |>
     relocate(data_type, outlier, dose, cohort, age_week) |>
     select(-dataset_name) |>
     write_csv(file.path("output", "tables", "1_outliers.csv"))
+
+## process for putatively annotating LC-MS features, for later reference
+if (!file.exists(file.path("data", "processed", "lcms", "annotated_features.tsv"))) {
+
+## retrieve KEGG reference list and LC-MS peak metadata
+kegg_compounds <- read_tsv(file.path("data", "kegg_compounds.tsv"))
+
+lcms_feature_metadata <- read_csv(file.path("data", "original", "lcms", "lcms_feature_metadata.csv"))
+
+## establish criteria for matching compound info to $putative_mw from the LC-MS features
+ppm_tolerance <- 10
+
+features_to_annotate <- lcms_feature_metadata |>
+    distinct(mz__rtMin, .keep_all = TRUE) |>
+    dplyr::filter(!is.na(putative_mw)) |>
+    mutate(
+        mw_min = putative_mw * (1 - ppm_tolerance / 1e6),
+        mw_max = putative_mw * (1 + ppm_tolerance / 1e6)
+    )
+
+features_annotated <- tidyr::crossing( # generates massive combinations of cases & variables from each object
+    features_to_annotate,
+    kegg_compounds
+) |>
+    dplyr::filter(exact_mass >= mw_min, exact_mass <= mw_max) |> # retain only matches that fall within mass/mw tolerance range
+    group_by(mz__rtMin) |> # group to evalute features with multiple matches
+    mutate(
+        n_matches = n(), # tracks number of times a feature appears
+        annotation = if_else(n_matches == 1, "putative_single", "putative_multi") # labels feature on their number of annotations
+    ) |>
+    ungroup() |>
+    select(
+        mz__rtMin,
+        putative_mw,
+        exact_mass,
+        kegg_id,
+        name,
+        formula,
+        pathways,
+        annotation
+    )
+
+write_tsv(
+    features_annotated,
+    file = file.path("data", "processed", "lcms", "putative_feature_annotations.tsv")
+)
+}
