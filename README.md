@@ -22,14 +22,15 @@ Additional authors and full affiliations will be added following manuscript subm
 ## Planned updates
 
 - [x] Add original data and project scaffolding
-- [ ] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility)
+- [ ] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility safeguards)
   - [ ] run_all.r
+  - [x] 0_setup.r
   - [x] 1_preprocess.r
   - [x] 2_lcms_profiling.r
   - [x] 3_lcms_limma.r
-  - [ ] 4_lcms_sig_annotation.r
-  - [ ] 5_lcms_pathway_annotation.r
-  - [ ] 6_lcms_pathway_analyses.r
+  - [ ] 4_lcms_pathway_annotation.r
+  - [ ] 5_lcms_pathway_overview.r
+  - [ ] 6_lcms_pathway_limma.r
   - [x] 7_16s_composition.r
   - [x] 8_16s_diversity.r
   - [x] 9_16s_maaslin.r
