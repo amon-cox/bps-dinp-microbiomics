@@ -202,7 +202,8 @@ features_annotated <- tidyr::crossing( # generates massive combinations of cases
         name,
         formula,
         pathways,
-        annotation
+        annotation,
+        lcms_run
     )
 
 write_tsv(

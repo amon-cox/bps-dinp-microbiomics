@@ -7,6 +7,7 @@ source(file.path("scripts", "0_setup.r"))
 source(file.path("scripts", "1_preprocess.r"))
 source(file.path("scripts", "2_lcms_profiling.r"))
 source(file.path("scripts", "3_lcms_limma.r"))
+source(file.path("scripts", "4_lcms_pathway_annotation.r"))
 
 source(file.path("scripts", "7_16s_composition.r"))
 source(file.path("scripts", "8_16s_diversity.r"))
