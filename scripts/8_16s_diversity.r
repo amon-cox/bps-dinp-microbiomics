@@ -181,7 +181,10 @@ legend_plot <- ggplot(legend_df, aes(x = 1, y = 1, fill = exposure)) +
         values = exposure_color_palette,
         drop = TRUE
     ) +
-    scale_shape_manual(values = c(16, 15, 3)) +
+    scale_shape_manual(
+        values = culture_day_shapes,
+        drop = TRUE
+    ) +
     stat_ellipse(geom = "polygon", level = 0.95, alpha = 0.15) +
     theme_void() +
     theme(

@@ -101,6 +101,10 @@ pcoa_by_set <- function(ds, ds_name) {
             values = exposure_color_palette,
             drop = TRUE
         ) +
+        scale_shape_manual(
+            values = culture_day_shapes,
+            drop = TRUE
+        ) +
         stat_ellipse(geom = "polygon", alpha = 0.2) +
         theme_classic(12) +
         theme(
@@ -132,29 +136,6 @@ pcoa_tbl <- map2_dfr(
 )
 
 ### arrange panels by cohort x dose
-#### dummy plot for shared legend
-legend_df <- expand.grid(
-    exposure = factor(c("inoculum", "control", "bps", "dinp"),
-        levels = c("inoculum", "control", "bps", "dinp")),
-    culture_day = factor(c("d0", "d2", "d7"),
-        levels = c("d0", "d2", "d7"))
-)
-
-legend_plot <- ggplot(legend_df, aes(x = 1, y = 1, fill = exposure)) +
-    geom_point(aes(shape = culture_day, color = exposure), size = 2) +
-    scale_color_manual(
-        aesthetics = c("colour", "fill"),
-        values = exposure_color_palette,
-        drop = FALSE
-    ) +
-    theme_void() +
-    theme(
-        legend.position = "right",
-        legend.title = element_text(face = "bold")
-    )
-
-shared_legend <- get_legend(legend_plot)
-
 #### 100uM BPS panel
 panel_bps <- pcoa_tbl |>
     filter(cohort == "BPS", dose == "high") |>
@@ -220,6 +201,34 @@ ggsave(
 )
 
 #### 10uM panel
+#### dummy plot for shared legend
+legend_df <- expand.grid(
+    exposure = levels(metadata$exposure),
+    culture_day = levels(metadata$culture_day)
+) |>
+    dplyr::filter(culture_day != "d1") |>
+    droplevels()
+
+legend_plot <- ggplot(legend_df, aes(x = 1, y = 1, fill = exposure)) +
+    geom_point(aes(shape = culture_day, color = exposure), size = 2) +
+    scale_color_manual(
+        aesthetics = c("colour", "fill"),
+        values = exposure_color_palette,
+        drop = FALSE
+    ) +
+    scale_shape_manual(
+        values = culture_day_shapes,
+        drop = TRUE
+    ) +
+    theme_void() +
+    theme(
+        legend.position = "right",
+        legend.title = element_text(face = "bold")
+    )
+
+shared_legend <- get_legend(legend_plot)
+
+#### plot the 10uM panel
 panel_low <- pcoa_tbl |>
     filter(dose == "low") |>
     arrange(cohort, age_week) |>
