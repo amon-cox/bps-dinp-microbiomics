@@ -1,15 +1,14 @@
-# 3) limma and fold change comparisons
-## check if LC-MS data is already present, from script 2
-if(!exists("lcms_peaks_processed", mode = "list")) {
-    lcms_peaks_processed <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^1_",
+# 5) LC-MS putative pathways analyzed by limma
+if(!exists("lcms_pathways", mode = "list")) {
+    lcms_pathways <- list.files(path = file.path("data", "processed", "lcms"),
+        pattern = "^4_",
         full.names = TRUE
     ) |>
-    set_names(~ basename(.x) %>% sub("^1_(.*)\\.csv$", "\\1", .)) |> 
-    map(.f = read_csv)
+    set_names(~ basename(.x) %>% sub("^4_(.*)\\.tsv$", "\\1", .)) |> 
+    map(.f = read_tsv)
 }
 
-## Apply limma by age-specific dataset
+## limma workflow by age-specific dataset
 ### establish function for applying limma
 limma_by_age <- function(df, df_name) {
 
@@ -63,7 +62,7 @@ limma_by_age <- function(df, df_name) {
             number = Inf,
             sort.by = "p"
         ) |>
-            rownames_to_column("peak")
+            rownames_to_column("pathway")
 
         results_list[[day]] <- results
     }
@@ -71,7 +70,7 @@ limma_by_age <- function(df, df_name) {
     #### combine results from each day then export
     limma_output <- bind_rows(results_list, .id = "culture_day")
 
-    write_csv(limma_output, file.path("output", "tables", paste0("3_lcms_limma_", df_name, ".csv")))
+    write_tsv(limma_output, file.path("output", "tables", paste0("5_lcms_pathways_limma_", df_name, ".tsv")))
 
     sig_limma_res <- limma_output |>
         dplyr::filter(adj.P.Val < 0.05) |>
@@ -84,7 +83,7 @@ limma_by_age <- function(df, df_name) {
 set.seed(123)
 
 sig_limma_results <- imap(
-    .x = lcms_peaks_processed,
+    .x = lcms_pathways,
     .f = limma_by_age
 )
 
@@ -94,7 +93,7 @@ sig_summaries <- imap(
     .f = \(df, i) df |>
         mutate(culture_day = "total_unique") |>
         bind_rows(df) |>
-        select(culture_day, peak) |>
+        select(culture_day, pathway) |>
         distinct() |>
         group_by(culture_day) |>
         summarize(count = n(), .groups = "drop")
@@ -104,36 +103,36 @@ sig_summaries <- imap(
 
 write_csv(
     sig_summaries,
-    file.path("output", "tables", "3_lcms_limma_sig_feature_counts.csv")
+    file.path("output", "tables", "5_lcms_limma_sig_pathway_counts.csv")
 )
 
 ## summarize overlapping features across ages per cohort
 ### establish function for overlap comparisons
-overlapping_peaks <- function(ls) {
-    peaks_list <- map(ls, .f = \(x) pull(x, peak) |> unique())
-    sapply(peaks_list, function(x) sapply(peaks_list, function(y) length(intersect(x, y))))
+overlapping_paths <- function(ls) {
+    path_list <- map(ls, .f = \(x) pull(x, pathway) |> unique())
+    sapply(path_list, function(x) sapply(path_list, function(y) length(intersect(x, y))))
 }
 
 ### BPS high
 sig_limma_results %>%
     purrr::keep(startsWith(names(.), "BPS_high_") & !endsWith(names(.), "wk40")) |>
-    overlapping_peaks() |>
-    write.csv(file.path("output", "tables", "3_lcms_limma_sig_feature_overalps_BPS_high.csv"))
+    overlapping_paths() |>
+    write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_BPS_high.csv"))
 
 ### DINP high
 sig_limma_results %>%
     purrr::keep(startsWith(names(.), "DINP_high_") & !endsWith(names(.), "wk40")) |>
-    overlapping_peaks() |>
-    write.csv(file.path("output", "tables", "3_lcms_limma_sig_feature_overalps_DINP_high.csv"))
+    overlapping_paths() |>
+    write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_DINP_high.csv"))
 
 ### BPS low
 sig_limma_results %>%
     purrr::keep(startsWith(names(.), "BPS_low_")) |>
-    overlapping_peaks() |>
-    write.csv(file.path("output", "tables", "3_lcms_limma_sig_feature_overalps_BPS_low.csv"))
+    overlapping_paths() |>
+    write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_BPS_low.csv"))
 
 ### DINP low
 sig_limma_results %>%
     purrr::keep(startsWith(names(.), "DINP_low_")) |>
-    overlapping_peaks() |>
-    write.csv(file.path("output", "tables", "3_lcms_limma_sig_feature_overalps_DINP_low.csv"))
+    overlapping_paths() |>
+    write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_DINP_low.csv"))

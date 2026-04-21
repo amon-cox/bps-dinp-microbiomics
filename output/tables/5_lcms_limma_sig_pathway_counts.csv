@@ -1,0 +1,11 @@
+dataset,d1,d2,d7,total_unique
+BPS_high_wk07,8,9,11,13
+BPS_high_wk12,13,22,11,23
+BPS_high_wk17,15,14,7,19
+BPS_high_wk22,96,23,101,140
+BPS_high_wk40,1,1,4,4
+BPS_low_wk12,0,0,6,6
+DINP_high_wk07,8,0,0,8
+DINP_high_wk17,5,0,0,5
+DINP_high_wk22,0,1,196,196
+DINP_high_wk40,97,99,92,100
