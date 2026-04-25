@@ -1,0 +1,115 @@
+variable	U1	U2	U3
+2-Oxocarboxylic acid metabolism	0	0	0
+ABC transporters	0	0	0
+Alanine, aspartate and glutamate metabolism	0	0	0
+Amino sugar and nucleotide sugar metabolism	-0	-0	-0
+Aminobenzoate degradation	0	0	0
+Anthocyanin biosynthesis	0	0	0
+Arabinogalactan biosynthesis - Mycobacterium	-0	-0	-0
+Arachidonic acid metabolism	0	0	0
+Arginine and proline metabolism	0	0	0
+Arginine biosynthesis	0	0	0
+Ascorbate and aldarate metabolism	0	0	0
+Benzoate degradation	0	0	0
+Betalain biosynthesis	0	0	0
+Bile secretion	0	0	0
+Biosynthesis of 12-, 14- and 16-membered macrolides	0	0	0
+Biosynthesis of alkaloids derived from shikimate pathway	0	0	0
+Biosynthesis of amino acids	0	0	0
+Biosynthesis of ansamycins	-0	-0	-0
+Biosynthesis of cofactors	0	0	0
+Biosynthesis of nucleotide sugars	-0	-0	-0
+Biosynthesis of phenylpropanoids	0.13761713129498024	0.13311783437332966	0.14622728381064984
+Biosynthesis of plant secondary metabolites	0	0	0
+Biosynthesis of secondary metabolites	0	0	0
+Biosynthesis of terpenoids and steroids	0	0	0
+Biosynthesis of various antibiotics	0.3253404672732259	0.33559342495167027	0.309956970347103
+Biosynthesis of various plant secondary metabolites	0.7236835720081543	0.7280508970955133	0.7205913223024001
+Bisphenol degradation	0	0	0
+Butanoate metabolism	0	0	0
+C5-Branched dibasic acid metabolism	0	0	0
+Caffeine metabolism	0	0	0
+Caprolactam degradation	0	0	0
+Carbon metabolism	-0	-0	-0
+Carotenoid biosynthesis	0	0	0
+Chemical carcinogenesis - DNA adducts	0	0	0
+Chemical carcinogenesis - reactive oxygen species	0	0	0
+Chemical carcinogenesis - receptor activation	0	0	0
+Chloroalkane and chloroalkene degradation	0	0	0
+Chlorocyclohexane and chlorobenzene degradation	0	0	0
+Cutin, suberine and wax biosynthesis	0	0	0
+Cyanoamino acid metabolism	-0	-0	-0
+D-Amino acid metabolism	0	0	0
+Degradation of aromatic compounds	0	0	0
+Degradation of flavonoids	0	0	0
+Dioxin degradation	-0	-0	-0
+Diterpenoid biosynthesis	0	0	0
+Dopaminergic synapse	0	0	0
+Drug metabolism - cytochrome P450	0	0	0
+Eicosanoids	0	0	0
+Ethylbenzene degradation	0	0	0
+Fatty acid degradation	0	0	0
+Flavone and flavonol biosynthesis	0	0	0
+Flavonoid biosynthesis	0	0	0
+Folate biosynthesis	0	0	0
+Fructose and mannose metabolism	0	0	0
+Galactose metabolism	-0	-0	-0
+Glycine, serine and threonine metabolism	0	0	0
+Hepatocellular carcinoma	0	0	0
+Indole alkaloid biosynthesis	0.5928719871389588	0.5827508786260049	0.6027374256051163
+Inflammatory mediator regulation of TRP channels	0	0	0
+Inositol phosphate metabolism	0	0	0
+Isoflavonoid biosynthesis	0	0	0
+Linoleic acid metabolism	0	0	0
+Lipopolysaccharide biosynthesis	0	0	0
+Lysine degradation	0	0	0
+Metabolic pathways	0	0	0
+Metabolism of xenobiotics by cytochrome P450	0	0	0
+Methane metabolism	0	0	0
+Microbial metabolism in diverse environments	0	0	0
+Mycolic acid biosynthesis	0	0	0
+Naphthalene degradation	0	0	0
+Neomycin, kanamycin and gentamicin biosynthesis	-0	-0	-0
+Nicotinate and nicotinamide metabolism	0	0	0
+Nitrotoluene degradation	0	0	0
+Ovarian steroidogenesis	0	0	0
+Oxytocin signaling pathway	0	0	0
+PPAR signaling pathway	0	0	0
+Pantothenate and CoA biosynthesis	0	0	0
+Pathways in cancer	0	0	0
+Pentose and glucuronate interconversions	0	0	0
+Phenylalanine metabolism	0	0	0
+Phenylalanine, tyrosine and tryptophan biosynthesis	0	0	0
+Phenylpropanoid biosynthesis	0	0	0
+Phosphotransferase system (PTS)	0	0	0
+Platelet activation	0	0	0
+Polycyclic aromatic hydrocarbon degradation	0	0	0
+Porphyrin metabolism	0	0	0
+Primary bile acid biosynthesis	0	0	0
+Prostaglandins	0	0	0
+Protein digestion and absorption	0	0	0
+Pyrimidine metabolism	0	0	0
+Pyruvate metabolism	0	0	0
+Retrograde endocannabinoid signaling	0	0	0
+Secondary bile acid biosynthesis	0	0	0
+Serotonergic synapse	0	0	0
+Sesquiterpenoid and triterpenoid biosynthesis	0	0	0
+Starch and sucrose metabolism	0	0	0
+Stilbenoid, diarylheptanoid and gingerol biosynthesis	-0	-0	-0
+Streptomycin biosynthesis	0	0	0
+Sulfur metabolism	0	0	0
+Systemic lupus erythematosus	0	0	0
+Thiamine metabolism	0	0	0
+Toluene degradation	0	0	0
+Tropane, piperidine and pyridine alkaloid biosynthesis	0	0	0
+Tryptophan metabolism	-0	-0	-0
+Two-component system	0	0	0
+Type I polyketide structures	0	0	0
+Tyrosine metabolism	0	0	0
+Valine, leucine and isoleucine biosynthesis	0	0	0
+Vancomycin resistance	0	0	0
+Vascular smooth muscle contraction	0	0	0
+Xylene degradation	0	0	0
+alpha-Linolenic acid metabolism	0	0	0
+beta-Alanine metabolism	0	0	0
+cAMP signaling pathway	0	0	0

@@ -29,8 +29,8 @@ Additional authors and full affiliations will be added following manuscript subm
   - [x] 2_lcms_profiling.r
   - [x] 3_lcms_limma.r
   - [x] 4_lcms_pathway_annotation.r
-  - [ ] 5_lcms_pathway_overview.r
-  - [ ] 6_lcms_pathway_limma.r
+  - [x] 5_lcms_pathway_limma.r
+  - [ ] 6_
   - [x] 7_16s_composition.r
   - [x] 8_16s_diversity.r
   - [x] 9_16s_maaslin.r
