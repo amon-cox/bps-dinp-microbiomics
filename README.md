@@ -30,11 +30,11 @@ Additional authors and full affiliations will be added following manuscript subm
   - [x] 3_lcms_limma.r
   - [x] 4_lcms_pathway_annotation.r
   - [x] 5_lcms_pathway_limma.r
-  - [ ] 6_
+  - [x] 6_pathway_comparison.r
   - [x] 7_16s_composition.r
   - [x] 8_16s_diversity.r
   - [x] 9_16s_maaslin.r
-  - [ ] 10_compare_pathways.r
+  - [x] 10_16s_pathway_limma.r
   - [ ] 11_compare_inocula.r
 - [ ] File guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.

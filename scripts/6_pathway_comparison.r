@@ -27,12 +27,52 @@ t4f2_path_ls <- t4f2_pathways |>
             }
     )
 
+imap(
+    t4f2_path_ls,
+    \(x, i) write_csv(x, file.path("data", "processed", "16s", paste0("6_", i, "_pathways.csv")))
+)
+
 ## name the 16S predicted pathways and compare with LC-MS putative pathways
 ### grab the convenient list of KEGG path names from the limma package
-kegg_names <- limma::getKEGGPathwayNames() |> 
-    rename(kegg_pathID = PathwayID, kegg_name = Description)
+kegg_IDs <- limma::getKEGGPathwayNames() |> 
+    rename(kegg_map = PathwayID, kegg_name = Description) |>
+    mutate(kegg_ko = gsub("map", "ko", kegg_map)) |>
+    relocate(kegg_name)
 
 ### make large table of LC-MS KEGG pathways, 16S KEGG pathways, and the KEGG pathID reference
+seq_path_ls <- map(t4f2_path_ls, \(x) colnames(x)[-1]) |>
+    unlist() |>
+    unname() |>
+    unique() %>%
+    data.frame(kegg_ko = .) |>
+    mutate(kegg_code = gsub("ko", "", kegg_ko))
+
+lcms_path_ls <- lcms_pathways[names(t4f2_path_ls)] |>
+    bind_rows() |>
+    select(-sample) |>
+    colnames() |>
+    unique() |>
+    data.frame() |>
+    rename(kegg_name = 1) |>
+    left_join(y = select(kegg_IDs, kegg_name, kegg_map), by = "kegg_name") |>
+    mutate(kegg_code = gsub("map", "", kegg_map))
+
+total_unique_paths <- full_join(
+    x = lcms_path_ls,
+    y = seq_path_ls,
+    by = "kegg_code"
+)
+
+write_tsv(total_unique_paths, file.path("output", "tables", "6_KEGG_path_total.tsv"))
+
+overlap_paths <- inner_join(
+    x = lcms_path_ls,
+    y = seq_path_ls,
+    by = "kegg_code"
+) |> 
+    relocate(-kegg_code)
+
+write_tsv(overlap_paths, file.path("output", "tables", "6_KEGG_path_overlaps.tsv"))
 
 ## perform sparse CCA by data set
 set.seed(123)

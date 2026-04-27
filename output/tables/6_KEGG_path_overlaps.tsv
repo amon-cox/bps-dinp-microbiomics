@@ -1,0 +1,194 @@
+kegg_name	kegg_map	kegg_ko	kegg_code
+2-Oxocarboxylic acid metabolism	map01210	ko01210	01210
+ABC transporters	map02010	ko02010	02010
+AMPK signaling pathway	map04152	ko04152	04152
+Acarbose and validamycin biosynthesis	map00525	ko00525	00525
+Adipocytokine signaling pathway	map04920	ko04920	04920
+Adrenergic signaling in cardiomyocytes	map04261	ko04261	04261
+African trypanosomiasis	map05143	ko05143	05143
+Alanine, aspartate and glutamate metabolism	map00250	ko00250	00250
+Aldosterone synthesis and secretion	map04925	ko04925	04925
+Aldosterone-regulated sodium reabsorption	map04960	ko04960	04960
+Alzheimer disease	map05010	ko05010	05010
+Amino sugar and nucleotide sugar metabolism	map00520	ko00520	00520
+Aminoacyl-tRNA biosynthesis	map00970	ko00970	00970
+Aminobenzoate degradation	map00627	ko00627	00627
+Amoebiasis	map05146	ko05146	05146
+Amyotrophic lateral sclerosis	map05014	ko05014	05014
+Antifolate resistance	map01523	ko01523	01523
+Arachidonic acid metabolism	map00590	ko00590	00590
+Arginine and proline metabolism	map00330	ko00330	00330
+Arginine biosynthesis	map00220	ko00220	00220
+Ascorbate and aldarate metabolism	map00053	ko00053	00053
+Atrazine degradation	map00791	ko00791	00791
+Bacterial chemotaxis	map02030	ko02030	02030
+Benzoate degradation	map00362	ko00362	00362
+Betalain biosynthesis	map00965	ko00965	00965
+Bile secretion	map04976	ko04976	04976
+Biofilm formation - Escherichia coli	map02026	ko02026	02026
+Biofilm formation - Vibrio cholerae	map05111	ko05111	05111
+Biosynthesis of amino acids	map01230	ko01230	01230
+Biosynthesis of ansamycins	map01051	ko01051	01051
+Biosynthesis of enediyne antibiotics	map01059	ko01059	01059
+Biosynthesis of secondary metabolites	map01110	ko01110	01110
+Biosynthesis of siderophore group nonribosomal peptides	map01053	ko01053	01053
+Biosynthesis of terpenoids and steroids	map01062	ko01062	01062
+Biosynthesis of unsaturated fatty acids	map01040	ko01040	01040
+Biotin metabolism	map00780	ko00780	00780
+Butanoate metabolism	map00650	ko00650	00650
+C5-Branched dibasic acid metabolism	map00660	ko00660	00660
+Caprolactam degradation	map00930	ko00930	00930
+Carbapenem biosynthesis	map00332	ko00332	00332
+Carbohydrate digestion and absorption	map04973	ko04973	04973
+Carbon fixation by Calvin cycle	map00710	ko00710	00710
+Carbon metabolism	map01200	ko01200	01200
+Carotenoid biosynthesis	map00906	ko00906	00906
+Cationic antimicrobial peptide (CAMP) resistance	map01503	ko01503	01503
+Central carbon metabolism in cancer	map05230	ko05230	05230
+Chemical carcinogenesis - DNA adducts	map05204	ko05204	05204
+Chloroalkane and chloroalkene degradation	map00625	ko00625	00625
+Chlorocyclohexane and chlorobenzene degradation	map00361	ko00361	00361
+Choline metabolism in cancer	map05231	ko05231	05231
+Citrate cycle (TCA cycle)	map00020	ko00020	00020
+Cushing syndrome	map04934	ko04934	04934
+Cyanoamino acid metabolism	map00460	ko00460	00460
+Cysteine and methionine metabolism	map00270	ko00270	00270
+Degradation of aromatic compounds	map01220	ko01220	01220
+Dioxin degradation	map00621	ko00621	00621
+Dopaminergic synapse	map04728	ko04728	04728
+Drug metabolism - cytochrome P450	map00982	ko00982	00982
+Drug metabolism - other enzymes	map00983	ko00983	00983
+Endocrine and other factor-regulated calcium reabsorption	map04961	ko04961	04961
+Estrogen signaling pathway	map04915	ko04915	04915
+Ether lipid metabolism	map00565	ko00565	00565
+Ethylbenzene degradation	map00642	ko00642	00642
+Fatty acid biosynthesis	map00061	ko00061	00061
+Fatty acid degradation	map00071	ko00071	00071
+Fatty acid metabolism	map01212	ko01212	01212
+Ferroptosis	map04216	ko04216	04216
+Flavone and flavonol biosynthesis	map00944	ko00944	00944
+Fluid shear stress and atherosclerosis	map05418	ko05418	05418
+Fluorobenzoate degradation	map00364	ko00364	00364
+Folate biosynthesis	map00790	ko00790	00790
+FoxO signaling pathway	map04068	ko04068	04068
+Fructose and mannose metabolism	map00051	ko00051	00051
+Galactose metabolism	map00052	ko00052	00052
+Gastric acid secretion	map04971	ko04971	04971
+Glucagon signaling pathway	map04922	ko04922	04922
+Glucosinolate biosynthesis	map00966	ko00966	00966
+Glutamatergic synapse	map04724	ko04724	04724
+Glutathione metabolism	map00480	ko00480	00480
+Glycerolipid metabolism	map00561	ko00561	00561
+Glycerophospholipid metabolism	map00564	ko00564	00564
+Glycine, serine and threonine metabolism	map00260	ko00260	00260
+Glycolysis / Gluconeogenesis	map00010	ko00010	00010
+Glyoxylate and dicarboxylate metabolism	map00630	ko00630	00630
+HIF-1 signaling pathway	map04066	ko04066	04066
+Hepatocellular carcinoma	map05225	ko05225	05225
+Histidine metabolism	map00340	ko00340	00340
+Inositol phosphate metabolism	map00562	ko00562	00562
+Insect hormone biosynthesis	map00981	ko00981	00981
+Insulin resistance	map04931	ko04931	04931
+Insulin secretion	map04911	ko04911	04911
+Insulin signaling pathway	map04910	ko04910	04910
+Isoquinoline alkaloid biosynthesis	map00950	ko00950	00950
+Limonene degradation	map00903	ko00903	00903
+Lipoic acid metabolism	map00785	ko00785	00785
+Lipopolysaccharide biosynthesis	map00540	ko00540	00540
+Lysine biosynthesis	map00300	ko00300	00300
+Lysine degradation	map00310	ko00310	00310
+Mannose type O-glycan biosynthesis	map00515	ko00515	00515
+Meiosis - yeast	map04113	ko04113	04113
+Metabolic pathways	map01100	ko01100	01100
+Metabolism of xenobiotics by cytochrome P450	map00980	ko00980	00980
+Methane metabolism	map00680	ko00680	00680
+Microbial metabolism in diverse environments	map01120	ko01120	01120
+Mineral absorption	map04978	ko04978	04978
+Monobactam biosynthesis	map00261	ko00261	00261
+Naphthalene degradation	map00626	ko00626	00626
+Necroptosis	map04217	ko04217	04217
+Neomycin, kanamycin and gentamicin biosynthesis	map00524	ko00524	00524
+Neuroactive ligand-receptor interaction	map04080	ko04080	04080
+Nicotinate and nicotinamide metabolism	map00760	ko00760	00760
+Nitrogen metabolism	map00910	ko00910	00910
+Nitrotoluene degradation	map00633	ko00633	00633
+Nonribosomal peptide structures	map01054	ko01054	01054
+Novobiocin biosynthesis	map00401	ko00401	00401
+One carbon pool by folate	map00670	ko00670	00670
+Other carbon fixation pathways	map00720	ko00720	00720
+PPAR signaling pathway	map03320	ko03320	03320
+Pancreatic secretion	map04972	ko04972	04972
+Pantothenate and CoA biosynthesis	map00770	ko00770	00770
+Pathways in cancer	map05200	ko05200	05200
+Penicillin and cephalosporin biosynthesis	map00311	ko00311	00311
+Pentose and glucuronate interconversions	map00040	ko00040	00040
+Pentose phosphate pathway	map00030	ko00030	00030
+Peptidoglycan biosynthesis	map00550	ko00550	00550
+Phenazine biosynthesis	map00405	ko00405	00405
+Phenylalanine metabolism	map00360	ko00360	00360
+Phenylalanine, tyrosine and tryptophan biosynthesis	map00400	ko00400	00400
+Phenylpropanoid biosynthesis	map00940	ko00940	00940
+Phosphatidylinositol signaling system	map04070	ko04070	04070
+Phospholipase D signaling pathway	map04072	ko04072	04072
+Phosphonate and phosphinate metabolism	map00440	ko00440	00440
+Phosphotransferase system (PTS)	map02060	ko02060	02060
+Photosynthesis	map00195	ko00195	00195
+Polycyclic aromatic hydrocarbon degradation	map00624	ko00624	00624
+Polyketide sugar unit biosynthesis	map00523	ko00523	00523
+Porphyrin metabolism	map00860	ko00860	00860
+Primary bile acid biosynthesis	map00120	ko00120	00120
+Prodigiosin biosynthesis	map00333	ko00333	00333
+Prolactin signaling pathway	map04917	ko04917	04917
+Propanoate metabolism	map00640	ko00640	00640
+Prostate cancer	map05215	ko05215	05215
+Protein digestion and absorption	map04974	ko04974	04974
+Proximal tubule bicarbonate reclamation	map04964	ko04964	04964
+Purine metabolism	map00230	ko00230	00230
+Pyrimidine metabolism	map00240	ko00240	00240
+Pyruvate metabolism	map00620	ko00620	00620
+Quorum sensing	map02024	ko02024	02024
+Retinol metabolism	map00830	ko00830	00830
+Riboflavin metabolism	map00740	ko00740	00740
+Salivary secretion	map04970	ko04970	04970
+Secondary bile acid biosynthesis	map00121	ko00121	00121
+Selenocompound metabolism	map00450	ko00450	00450
+Serotonergic synapse	map04726	ko04726	04726
+Sesquiterpenoid and triterpenoid biosynthesis	map00909	ko00909	00909
+Sphingolipid metabolism	map00600	ko00600	00600
+Starch and sucrose metabolism	map00500	ko00500	00500
+Steroid hormone biosynthesis	map00140	ko00140	00140
+Streptomycin biosynthesis	map00521	ko00521	00521
+Styrene degradation	map00643	ko00643	00643
+Sulfur metabolism	map00920	ko00920	00920
+Taurine and hypotaurine metabolism	map00430	ko00430	00430
+Terpenoid backbone biosynthesis	map00900	ko00900	00900
+Th17 cell differentiation	map04659	ko04659	04659
+Thermogenesis	map04714	ko04714	04714
+Thiamine metabolism	map00730	ko00730	00730
+Thyroid hormone signaling pathway	map04919	ko04919	04919
+Thyroid hormone synthesis	map04918	ko04918	04918
+Toluene degradation	map00623	ko00623	00623
+Tropane, piperidine and pyridine alkaloid biosynthesis	map00960	ko00960	00960
+Tryptophan metabolism	map00380	ko00380	00380
+Two-component system	map02020	ko02020	02020
+Type II diabetes mellitus	map04930	ko04930	04930
+Tyrosine metabolism	map00350	ko00350	00350
+Ubiquinone and other terpenoid-quinone biosynthesis	map00130	ko00130	00130
+Valine, leucine and isoleucine biosynthesis	map00290	ko00290	00290
+Valine, leucine and isoleucine degradation	map00280	ko00280	00280
+Vancomycin resistance	map01502	ko01502	01502
+Vibrio cholerae infection	map05110	ko05110	05110
+Vitamin B6 metabolism	map00750	ko00750	00750
+Xylene degradation	map00622	ko00622	00622
+Zeatin biosynthesis	map00908	ko00908	00908
+alpha-Linolenic acid metabolism	map00592	ko00592	00592
+beta-Alanine metabolism	map00410	ko00410	00410
+beta-Lactam resistance	map01501	ko01501	01501
+cAMP signaling pathway	map04024	ko04024	04024
+cGMP-PKG signaling pathway	map04022	ko04022	04022
+Biofilm formation - Pseudomonas aeruginosa	map02025	ko02025	02025
+Legionellosis	map05134	ko05134	05134
+Longevity regulating pathway - worm	map04212	ko04212	04212
+Renin-angiotensin system	map04614	ko04614	04614
+Steroid biosynthesis	map00100	ko00100	00100
+Tuberculosis	map05152	ko05152	05152
