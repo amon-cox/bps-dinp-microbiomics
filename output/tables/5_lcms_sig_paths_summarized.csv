@@ -1,0 +1,11 @@
+dataset,sig_path_unique,contains_sig_features
+BPS_high_wk07,13,13
+BPS_high_wk12,23,21
+BPS_high_wk17,19,17
+BPS_high_wk22,140,128
+BPS_high_wk40,4,4
+BPS_low_wk12,6,6
+DINP_high_wk07,8,0
+DINP_high_wk17,5,0
+DINP_high_wk22,196,161
+DINP_high_wk40,100,100

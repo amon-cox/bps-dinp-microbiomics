@@ -82,14 +82,14 @@ limma_by_age <- function(df, df_name) {
 ### run limma function on data list
 set.seed(123)
 
-sig_limma_results <- imap(
+sig_limma_path_res <- imap(
     .x = lcms_pathways,
     .f = limma_by_age
 )
 
 ## summary tables of overlaps between ages
 sig_summaries <- imap(
-    .x = sig_limma_results,
+    .x = sig_limma_path_res,
     .f = \(df, i) df |>
         mutate(culture_day = "total_unique") |>
         bind_rows(df) |>
@@ -114,25 +114,107 @@ overlapping_paths <- function(ls) {
 }
 
 ### BPS high
-sig_limma_results %>%
+sig_limma_path_res %>%
     purrr::keep(startsWith(names(.), "BPS_high_") & !endsWith(names(.), "wk40")) |>
     overlapping_paths() |>
     write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_BPS_high.csv"))
 
 ### DINP high
-sig_limma_results %>%
+sig_limma_path_res %>%
     purrr::keep(startsWith(names(.), "DINP_high_") & !endsWith(names(.), "wk40")) |>
     overlapping_paths() |>
     write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_DINP_high.csv"))
 
 ### BPS low
-sig_limma_results %>%
+sig_limma_path_res %>%
     purrr::keep(startsWith(names(.), "BPS_low_")) |>
     overlapping_paths() |>
     write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_BPS_low.csv"))
 
 ### DINP low
-sig_limma_results %>%
+sig_limma_path_res %>%
     purrr::keep(startsWith(names(.), "DINP_low_")) |>
     overlapping_paths() |>
     write.csv(file.path("output", "tables", "5_lcms_limma_sig_pathway_overalps_DINP_low.csv"))
+
+## assessing feature contributions to sig. dif. putative pathways
+### retrieve and reformat pathway info
+if (!exists("features_annotated")) {
+    features_annotated <- read_tsv(file.path("data", "processed", "lcms", "putative_feature_annotations.tsv"))
+}
+
+paths_annotated <- separate_longer_delim(
+    features_annotated,
+    cols = pathways, delim = ";"
+) |>
+    select(pathways, mz__rtMin)
+
+### retrieve significant LC-MS features
+if (!exists("sig_limma_results")) {
+    sig_limma_results <- list.files(path = file.path("output", "tables"),
+        pattern = "^3_lcms_limma_(BPS|DINP)_",
+        full.names = TRUE
+    ) |>
+    set_names(~ basename(.x) %>% sub("^3_lcms_limma_(.*)\\.csv$", "\\1", .)) |> 
+    map(.f = read_csv)
+}
+
+### filter pathway results to relevant columns
+sig_paths_features <- sig_limma_path_res |> 
+    map2(
+        .y = sig_limma_results[names(sig_limma_path_res)],
+        .f = \(res.path, res.feat) {
+            ### get significant features for this dataset
+            res.feat.sig <- res.feat |>
+                dplyr::filter(adj.P.Val < 0.05) |>
+                select(feature = peak)
+
+            ### pathway-level feature lists
+            res.path.sig <- res.path |>
+                dplyr::filter(adj.P.Val < .05) |>
+                select(culture_day, pathway, logFC) |>
+                left_join(
+                    y = paths_annotated,
+                    by = c("pathway" = "pathways"),
+                    relationship = "many-to-many"
+                ) |>
+                rename(feature = mz__rtMin)
+            
+            ### mark which matched features were significant
+            res.merged <- res.path.sig |>
+                left_join(
+                    res.feat.sig |> mutate(sig_feature = TRUE),
+                    by = "feature",
+                    relationship = "many-to-many"
+                ) |>
+                mutate(sig_feature = if_else(is.na(sig_feature), FALSE, sig_feature))
+            
+            ### 
+            res.summarized <- res.merged |>
+                group_by(culture_day, pathway) |>
+                summarize(
+                    feature_counts = n(),
+                    sig_feature_counts = sum(sig_feature),
+                    features = paste(feature, collapse = ";"),
+                    sig_features = paste(feature[sig_feature], collapse = if (sig_feature_counts > 0) ";" else ""),
+                    .groups = "drop"
+                )
+        }
+    ) |>
+    purrr::discard( ~ nrow(.x) == 0)
+
+sig_paths_features |>
+    bind_rows(.id = "dataset") |>
+    write_tsv(file.path("output", "tables", "5_lcms_sig_paths_annotated.tsv"))
+
+sig_paths_features |>
+    bind_rows(.id = "dataset") |>
+    select(-culture_day) |>
+    distinct() |>
+    group_by(dataset) |>
+    summarize(
+        sig_path_unique = n(),
+        contains_sig_features = sum(sig_feature_counts > 0),
+        .groups = "drop"
+    ) |>
+    write_csv(file.path("output", "tables", "5_lcms_sig_paths_summarized.csv"))
