@@ -1,7 +1,7 @@
 # 5) LC-MS putative pathways analyzed by limma
 if(!exists("lcms_pathways", mode = "list")) {
     lcms_pathways <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^4_",
+        pattern = "^4_(BPS|DINP)_",
         full.names = TRUE
     ) |>
     set_names(~ basename(.x) %>% sub("^4_(.*)\\.tsv$", "\\1", .)) |> 
@@ -139,15 +139,21 @@ sig_limma_path_res %>%
 
 ## assessing feature contributions to sig. dif. putative pathways
 ### retrieve and reformat pathway info
-if (!exists("features_annotated")) {
-    features_annotated <- read_tsv(file.path("data", "processed", "lcms", "putative_feature_annotations.tsv"))
-}
+features_annotated <- read_tsv(file.path("data", "processed", "lcms", "1_putative_feature_annotations.tsv"))
+pathways_annotated <- read_tsv(file.path("data", "processed", "lcms", "4_putative_pathway_annotations.tsv"))
 
-paths_annotated <- separate_longer_delim(
+full_annotation <- separate_longer_delim(
     features_annotated,
     cols = pathways, delim = ";"
 ) |>
-    select(pathways, mz__rtMin)
+    rename(pathway = pathways) |>
+    left_join(
+        y = pathways_annotated,
+        by = "pathway"
+    ) |>
+    select(mz__rtMin, putative_mw, exact_mass, compoundID = kegg_id, compound = name, pathwayID, pathway, annotation, lcms_run)
+
+write_tsv(full_annotation, file.path("data", "processed", "lcms", "5_putative_annotation_key.tsv"))
 
 ### retrieve significant LC-MS features
 if (!exists("sig_limma_results")) {
@@ -160,10 +166,10 @@ if (!exists("sig_limma_results")) {
 }
 
 ### filter pathway results to relevant columns
-sig_paths_features <- sig_limma_path_res |> 
-    map2(
-        .y = sig_limma_results[names(sig_limma_path_res)],
-        .f = \(res.path, res.feat) {
+sig_paths_features <- map2(
+    .x = sig_limma_path_res,
+    .y = sig_limma_results[names(sig_limma_path_res)],
+    .f = \(res.path, res.feat) {
             ### get significant features for this dataset
             res.feat.sig <- res.feat |>
                 dplyr::filter(adj.P.Val < 0.05) |>
@@ -174,13 +180,13 @@ sig_paths_features <- sig_limma_path_res |>
                 dplyr::filter(adj.P.Val < .05) |>
                 select(culture_day, pathway, logFC) |>
                 left_join(
-                    y = paths_annotated,
-                    by = c("pathway" = "pathways"),
+                    y = select(full_annotation, mz__rtMin, pathwayID),
+                    by = c("pathway" = "pathwayID"),
                     relationship = "many-to-many"
                 ) |>
                 rename(feature = mz__rtMin)
             
-            ### mark which matched features were significant
+            ### mark which matched features were significant, then replace with compound names
             res.merged <- res.path.sig |>
                 left_join(
                     res.feat.sig |> mutate(sig_feature = TRUE),
@@ -189,7 +195,7 @@ sig_paths_features <- sig_limma_path_res |>
                 ) |>
                 mutate(sig_feature = if_else(is.na(sig_feature), FALSE, sig_feature))
             
-            ### 
+            ### summarize
             res.summarized <- res.merged |>
                 group_by(culture_day, pathway) |>
                 summarize(
