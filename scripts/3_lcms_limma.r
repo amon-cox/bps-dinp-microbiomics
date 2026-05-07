@@ -2,7 +2,7 @@
 ## check if LC-MS data is already present, from script 2
 if(!exists("lcms_peaks_processed", mode = "list")) {
     lcms_peaks_processed <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^1_",
+        pattern = "^1_(BPS|DINP)_",
         full.names = TRUE
     ) |>
     set_names(~ basename(.x) %>% sub("^1_(.*)\\.csv$", "\\1", .)) |> 

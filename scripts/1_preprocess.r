@@ -165,7 +165,7 @@ outliers_full |>
     write_csv(file.path("output", "tables", "1_outliers.csv"))
 
 ## process for putatively annotating LC-MS features, for later reference
-if (!file.exists(file.path("data", "processed", "lcms", "annotated_features.tsv"))) {
+if (!file.exists(file.path("data", "processed", "lcms", "1_putative_feature_annotations.tsv"))) {
 
 ## retrieve KEGG reference list and LC-MS peak metadata
 kegg_compounds <- read_tsv(file.path("data", "kegg_compounds.tsv"))
@@ -208,6 +208,6 @@ features_annotated <- tidyr::crossing( # generates massive combinations of cases
 
 write_tsv(
     features_annotated,
-    file = file.path("data", "processed", "lcms", "putative_feature_annotations.tsv")
+    file = file.path("data", "processed", "lcms", "1_putative_feature_annotations.tsv")
 )
 }

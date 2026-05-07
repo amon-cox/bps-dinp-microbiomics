@@ -1,7 +1,7 @@
 # 2) PERMANOVA and Principle Coordinates Analysis for LC-MS data
 ## call in processed data
 lcms_peaks_processed <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^1_",
+        pattern = "^1_(BPS|DINP)_",
         full.names = TRUE
     ) |>
     set_names(~ basename(.x) %>% sub("^1_(.*)\\.csv$", "\\1", .)) |> 

@@ -1,18 +1,22 @@
 # 4) Reorganize LC-MS data by pathways based on putative KEGG annotations
 if (!exists("features_annotated")) {
-    features_annotated <- read_tsv(file.path("data", "processed", "lcms", "putative_feature_annotations.tsv"))
+    features_annotated <- read_tsv(file.path("data", "processed", "lcms", "1_putative_feature_annotations.tsv"))
 }
 
 if(!exists("lcms_peaks_processed", mode = "list")) {
     lcms_peaks_processed <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^1_",
+        pattern = "^1_(BPS|DINP)_",
         full.names = TRUE
     ) |>
     set_names(~ basename(.x) %>% sub("^1_(.*)\\.csv$", "\\1", .)) |> 
     map(.f = read_csv)
 }
 
+kegg_path_names <- limma::getKEGGPathwayNames(species = "map")
+
 ## join pathway info to peaks data, dilute peak intensities across pathways, then summarize pathway expression
+annotated_paths <- list()
+
 lcms_pathways <- imap(
     .x = lcms_peaks_processed,
     .f = \(df, nm) {
@@ -45,20 +49,35 @@ lcms_pathways <- imap(
             ungroup() |>
             group_by(sample, pathways) |>
             summarize( # sum pathway intensity and convert back to log2
-                pathway_intensity_au = log2(sum(intensity_au)),
+                intensity_log2_au = log2(sum(intensity_au)),
                 .groups = "drop"
             ) |> 
+            left_join(
+                y = kegg_path_names, # attaching KEGG mapIDs to full path names
+                by = c("pathways" = "Description")
+            ) |>
+            relocate(sample, pathway = pathways, pathwayID = PathwayID)
+        
+        annotated_paths[[nm]] <<- select(df_pathways, pathwayID, pathway)
+        
+        df_paths_wide <- df_pathways |>
+            select(-pathway) |>
             pivot_wider(
-                names_from = pathways,
-                values_from = pathway_intensity_au
+                names_from = pathwayID,
+                values_from = intensity_log2_au
             )
         
         ### export pathways data
         write_tsv(
-            df_pathways,
+            df_paths_wide,
             file.path("data", "processed", "lcms", paste0("4_", nm, ".tsv"))
         )
 
-        return(df_pathways)
+        return(df_paths_wide)
     }
 )
+
+annotated_paths |>
+    bind_rows() |>
+    distinct() |>
+    write_tsv(file.path("data", "processed", "lcms", "4_putative_pathway_annotations.tsv"))
