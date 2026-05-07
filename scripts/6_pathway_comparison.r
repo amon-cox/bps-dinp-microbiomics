@@ -1,7 +1,7 @@
 # 6) CCA on LC-MS log2 peak intensities and 16S predicted pathway counts
 if(!exists("lcms_pathways", mode = "list")) {
     lcms_pathways <- list.files(path = file.path("data", "processed", "lcms"),
-        pattern = "^4_",
+        pattern = "^4_(BPS|DINP)_",
         full.names = TRUE
     ) |>
     set_names(~ basename(.x) %>% sub("^4_(.*)\\.tsv$", "\\1", .)) |> 
@@ -33,11 +33,15 @@ imap(
 )
 
 ## name the 16S predicted pathways and compare with LC-MS putative pathways
+if (!exists("pathways_annotated")) {
+    pathways_annotated <- read_tsv(file.path("data", "processed", "lcms", "4_putative_pathway_annotations.tsv"))
+}
+
 ### grab the convenient list of KEGG path names from the limma package
-kegg_IDs <- limma::getKEGGPathwayNames() |> 
-    rename(kegg_map = PathwayID, kegg_name = Description) |>
+kegg_IDs <- pathways_annotated |>
+    rename(kegg_map = pathwayID) |>
     mutate(kegg_ko = gsub("map", "ko", kegg_map)) |>
-    relocate(kegg_name)
+    relocate(pathway)
 
 ### make large table of LC-MS KEGG pathways, 16S KEGG pathways, and the KEGG pathID reference
 seq_path_ls <- map(t4f2_path_ls, \(x) colnames(x)[-1]) |>
@@ -53,15 +57,16 @@ lcms_path_ls <- lcms_pathways[names(t4f2_path_ls)] |>
     colnames() |>
     unique() |>
     data.frame() |>
-    rename(kegg_name = 1) |>
-    left_join(y = select(kegg_IDs, kegg_name, kegg_map), by = "kegg_name") |>
+    rename(kegg_map = 1) |>
+    left_join(y = select(kegg_IDs, pathway, kegg_map), by = "kegg_map") |>
     mutate(kegg_code = gsub("map", "", kegg_map))
 
 total_unique_paths <- full_join(
     x = lcms_path_ls,
     y = seq_path_ls,
     by = "kegg_code"
-)
+) |>
+    relocate(kegg_code, kegg_map, kegg_ko, pathway)
 
 write_tsv(total_unique_paths, file.path("output", "tables", "6_KEGG_path_total.tsv"))
 
@@ -70,7 +75,7 @@ overlap_paths <- inner_join(
     y = seq_path_ls,
     by = "kegg_code"
 ) |> 
-    relocate(-kegg_code)
+    relocate(kegg_code, kegg_map, kegg_ko, pathway)
 
 write_tsv(overlap_paths, file.path("output", "tables", "6_KEGG_path_overlaps.tsv"))
 
