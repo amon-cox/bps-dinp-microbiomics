@@ -20,6 +20,9 @@ library(PMA)
 library(FSA)
 library(Maaslin2)
 library(pairwiseAdonis) # remotes::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
+library(lme4)
+library(lmerTest)
+library(emmeans)
 
 ## prepare the metadata ahead of running scripts
 metadata <- read_csv(file.path("data", "sample_metadata.csv")) |>
