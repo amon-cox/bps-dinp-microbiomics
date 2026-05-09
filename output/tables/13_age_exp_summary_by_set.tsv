@@ -1,0 +1,34 @@
+dataset	culture_day	direction	path_count	paths
+BPS_high_wk07	d1	decreasing_with_age	2	map00760; map04923
+BPS_high_wk07	d1	increasing_with_age	1	map00907
+BPS_high_wk07	d2	decreasing_with_age	2	map00760; map04923
+BPS_high_wk07	d2	increasing_with_age	1	map00907
+BPS_high_wk07	d7	decreasing_with_age	2	map00760; map04923
+BPS_high_wk07	d7	increasing_with_age	1	map01057
+BPS_high_wk12	d1	decreasing_with_age	5	map00621; map00760; map00945; map02010; map04923
+BPS_high_wk12	d2	decreasing_with_age	7	map00350; map00621; map00760; map00901; map00945; map02010; map04923
+BPS_high_wk12	d2	increasing_with_age	2	map00522; map00903
+BPS_high_wk12	d7	decreasing_with_age	3	map00760; map00945; map04923
+BPS_high_wk17	d1	decreasing_with_age	7	map00350; map00621; map00760; map00945; map00983; map01220; map04923
+BPS_high_wk17	d1	increasing_with_age	1	map01057
+BPS_high_wk17	d2	decreasing_with_age	5	map00624; map00760; map00945; map00983; map04923
+BPS_high_wk17	d7	decreasing_with_age	3	map00760; map00983; map04923
+BPS_high_wk22	d1	decreasing_with_age	23	map00051; map00071; map00350; map00362; map00450; map00520; map00620; map00621; map00623; map00630; map00680; map00750; map00760; map00901; map00943; map00945; map00970; map00983; map01200; map01220; map02010; map04923; map05415
+BPS_high_wk22	d1	increasing_with_age	3	map00052; map00572; map07030
+BPS_high_wk22	d2	decreasing_with_age	13	map00402; map00621; map00760; map00945; map00983; map01220; map01232; map02010; map04082; map04923; map04974; map05200; map05415
+BPS_high_wk22	d7	decreasing_with_age	37	map00040; map00053; map00074; map00130; map00311; map00350; map00362; map00402; map00450; map00500; map00524; map00621; map00623; map00680; map00750; map00760; map00910; map00941; map00945; map00970; map00983; map00999; map01220; map02010; map04024; map04066; map04081; map04216; map04923; map04927; map04934; map04974; map04978; map05010; map05146; map05415; map07034
+BPS_high_wk22	d7	increasing_with_age	2	map00073; map00906
+BPS_high_wk40	d1	decreasing_with_age	1	map00760
+BPS_high_wk40	d2	decreasing_with_age	1	map00760
+BPS_high_wk40	d7	decreasing_with_age	3	map00760; map00901; map00941
+BPS_low_wk12	d7	decreasing_with_age	5	map00450; map00623; map00750; map00970; map02010
+DINP_high_wk07	d1	increasing_with_age	4	map00330; map01040; map01212; map04216
+DINP_high_wk22	d2	increasing_with_age	1	map00901
+DINP_high_wk22	d7	decreasing_with_age	5	map00566; map00791; map00996; map00998; map04921
+DINP_high_wk22	d7	increasing_with_age	42	map00074; map00121; map00230; map00290; map00330; map00525; map00540; map00562; map00590; map00620; map00630; map00680; map00720; map00730; map00750; map00901; map00904; map00906; map00920; map00930; map00946; map00970; map00980; map01040; map01051; map01054; map01063; map01100; map01110; map01120; map01200; map01240; map01502; map01523; map04024; map04216; map04918; map05204; map05208; map05310; map07216; map07232
+DINP_high_wk40	d1	decreasing_with_age	3	map00998; map01061; map04921
+DINP_high_wk40	d1	increasing_with_age	33	map00040; map00052; map00053; map00074; map00121; map00240; map00290; map00330; map00410; map00540; map00562; map00572; map00590; map00620; map00623; map00680; map00730; map00901; map00904; map00906; map00920; map00930; map00946; map00980; map01100; map01110; map01120; map01200; map01240; map01502; map04024; map05204; map05208
+DINP_high_wk40	d2	decreasing_with_age	3	map00998; map01061; map04921
+DINP_high_wk40	d2	increasing_with_age	34	map00040; map00052; map00053; map00074; map00121; map00240; map00290; map00330; map00410; map00540; map00562; map00572; map00590; map00620; map00623; map00680; map00730; map00901; map00904; map00906; map00920; map00930; map00946; map00980; map01051; map01100; map01110; map01120; map01200; map01240; map01502; map04024; map05204; map05208
+DINP_high_wk40	d7	decreasing_with_age	2	map01061; map04921
+DINP_high_wk40	d7	increasing_with_age	32	map00040; map00052; map00053; map00074; map00121; map00240; map00290; map00330; map00410; map00540; map00562; map00572; map00590; map00620; map00623; map00680; map00730; map00904; map00906; map00920; map00930; map00946; map00980; map01100; map01110; map01120; map01200; map01240; map01502; map04024; map05204; map05208
