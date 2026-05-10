@@ -57,8 +57,8 @@ summary_by_set <- age_exp_paths |>
 write_tsv(summary_by_set, file.path("output", "tables", "13_age_exp_summary_by_set.tsv"))
 
 age_exp_paths |>
-    group_by(pathwayID) |>
-    summarize(set_count = n(), sets = paste(dataset, collapse = "; ")) |>
+    group_by(pathwayID, pathway) |>
+    summarize(set_count = n(), sets = paste(dataset, collapse = "; "), .groups = "drop_last") |>
     arrange(desc(set_count)) |>
     write_tsv(file.path("output", "tables", "13_age_exp_summary_by_pathway.tsv"))
 

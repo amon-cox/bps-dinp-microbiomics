@@ -1,99 +1,99 @@
-pathwayID	set_count	sets
-map00760	15	BPS_high_wk07; BPS_high_wk07; BPS_high_wk07; BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22; BPS_high_wk40; BPS_high_wk40; BPS_high_wk40
-map04923	12	BPS_high_wk07; BPS_high_wk07; BPS_high_wk07; BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map00945	8	BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map00901	7	BPS_high_wk12; BPS_high_wk22; BPS_high_wk40; DINP_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40
-map00621	6	BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map00623	6	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00680	6	BPS_high_wk22; BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00983	6	BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map02010	6	BPS_high_wk12; BPS_high_wk12; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22; BPS_low_wk12
-map00074	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00330	5	DINP_high_wk07; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00620	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00906	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01200	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map04024	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00040	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00052	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00053	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00121	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00290	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00350	4	BPS_high_wk12; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22
-map00540	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00562	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00572	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00590	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00730	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00750	4	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk22
-map00904	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00920	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00930	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00946	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00970	4	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk22
-map00980	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01100	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01110	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01120	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01220	4	BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map01240	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map01502	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map04921	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map05204	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map05208	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00240	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00410	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map00450	3	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12
-map00998	3	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40
-map01061	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
-map04216	3	BPS_high_wk22; DINP_high_wk07; DINP_high_wk22
-map05415	3	BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
-map00362	2	BPS_high_wk22; BPS_high_wk22
-map00402	2	BPS_high_wk22; BPS_high_wk22
-map00630	2	BPS_high_wk22; DINP_high_wk22
-map00907	2	BPS_high_wk07; BPS_high_wk07
-map00941	2	BPS_high_wk22; BPS_high_wk40
-map01040	2	DINP_high_wk07; DINP_high_wk22
-map01051	2	DINP_high_wk22; DINP_high_wk40
-map01057	2	BPS_high_wk07; BPS_high_wk17
-map04974	2	BPS_high_wk22; BPS_high_wk22
-map00051	1	BPS_high_wk22
-map00071	1	BPS_high_wk22
-map00073	1	BPS_high_wk22
-map00130	1	BPS_high_wk22
-map00230	1	DINP_high_wk22
-map00311	1	BPS_high_wk22
-map00500	1	BPS_high_wk22
-map00520	1	BPS_high_wk22
-map00522	1	BPS_high_wk12
-map00524	1	BPS_high_wk22
-map00525	1	DINP_high_wk22
-map00566	1	DINP_high_wk22
-map00624	1	BPS_high_wk17
-map00720	1	DINP_high_wk22
-map00791	1	DINP_high_wk22
-map00903	1	BPS_high_wk12
-map00910	1	BPS_high_wk22
-map00943	1	BPS_high_wk22
-map00996	1	DINP_high_wk22
-map00999	1	BPS_high_wk22
-map01054	1	DINP_high_wk22
-map01063	1	DINP_high_wk22
-map01212	1	DINP_high_wk07
-map01232	1	BPS_high_wk22
-map01523	1	DINP_high_wk22
-map04066	1	BPS_high_wk22
-map04081	1	BPS_high_wk22
-map04082	1	BPS_high_wk22
-map04918	1	DINP_high_wk22
-map04927	1	BPS_high_wk22
-map04934	1	BPS_high_wk22
-map04978	1	BPS_high_wk22
-map05010	1	BPS_high_wk22
-map05146	1	BPS_high_wk22
-map05200	1	BPS_high_wk22
-map05310	1	DINP_high_wk22
-map07030	1	BPS_high_wk22
-map07034	1	BPS_high_wk22
-map07216	1	DINP_high_wk22
-map07232	1	DINP_high_wk22
+pathwayID	pathway	set_count	sets
+map00760	Nicotinate and nicotinamide metabolism	15	BPS_high_wk07; BPS_high_wk07; BPS_high_wk07; BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22; BPS_high_wk40; BPS_high_wk40; BPS_high_wk40
+map04923	Regulation of lipolysis in adipocytes	12	BPS_high_wk07; BPS_high_wk07; BPS_high_wk07; BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map00945	Stilbenoid, diarylheptanoid and gingerol biosynthesis	8	BPS_high_wk12; BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map00901	Indole alkaloid biosynthesis	7	BPS_high_wk12; BPS_high_wk22; BPS_high_wk40; DINP_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40
+map00621	Dioxin degradation	6	BPS_high_wk12; BPS_high_wk12; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map00623	Toluene degradation	6	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00680	Methane metabolism	6	BPS_high_wk22; BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00983	Drug metabolism - other enzymes	6	BPS_high_wk17; BPS_high_wk17; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map02010	ABC transporters	6	BPS_high_wk12; BPS_high_wk12; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22; BPS_low_wk12
+map00074	Mycolic acid biosynthesis	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00330	Arginine and proline metabolism	5	DINP_high_wk07; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00620	Pyruvate metabolism	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00906	Carotenoid biosynthesis	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01200	Carbon metabolism	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map04024	cAMP signaling pathway	5	BPS_high_wk22; DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00040	Pentose and glucuronate interconversions	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00052	Galactose metabolism	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00053	Ascorbate and aldarate metabolism	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00121	Secondary bile acid biosynthesis	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00290	Valine, leucine and isoleucine biosynthesis	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00350	Tyrosine metabolism	4	BPS_high_wk12; BPS_high_wk17; BPS_high_wk22; BPS_high_wk22
+map00540	Lipopolysaccharide biosynthesis	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00562	Inositol phosphate metabolism	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00572	Arabinogalactan biosynthesis - Mycobacterium	4	BPS_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00590	Arachidonic acid metabolism	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00730	Thiamine metabolism	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00750	Vitamin B6 metabolism	4	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk22
+map00904	Diterpenoid biosynthesis	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00920	Sulfur metabolism	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00930	Caprolactam degradation	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00946	Degradation of flavonoids	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00970	Aminoacyl-tRNA biosynthesis	4	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12; DINP_high_wk22
+map00980	Metabolism of xenobiotics by cytochrome P450	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01100	Metabolic pathways	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01110	Biosynthesis of secondary metabolites	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01120	Microbial metabolism in diverse environments	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01220	Degradation of aromatic compounds	4	BPS_high_wk17; BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map01240	Biosynthesis of cofactors	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map01502	Vancomycin resistance	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map04921	Oxytocin signaling pathway	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map05204	Chemical carcinogenesis - DNA adducts	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map05208	Chemical carcinogenesis - reactive oxygen species	4	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00240	Pyrimidine metabolism	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00410	beta-Alanine metabolism	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map00450	Selenocompound metabolism	3	BPS_high_wk22; BPS_high_wk22; BPS_low_wk12
+map00998	Biosynthesis of various antibiotics	3	DINP_high_wk22; DINP_high_wk40; DINP_high_wk40
+map01061	Biosynthesis of phenylpropanoids	3	DINP_high_wk40; DINP_high_wk40; DINP_high_wk40
+map04216	Ferroptosis	3	BPS_high_wk22; DINP_high_wk07; DINP_high_wk22
+map05415	Diabetic cardiomyopathy	3	BPS_high_wk22; BPS_high_wk22; BPS_high_wk22
+map00362	Benzoate degradation	2	BPS_high_wk22; BPS_high_wk22
+map00402	Benzoxazinoid biosynthesis	2	BPS_high_wk22; BPS_high_wk22
+map00630	Glyoxylate and dicarboxylate metabolism	2	BPS_high_wk22; DINP_high_wk22
+map00907	Pinene, camphor and geraniol degradation	2	BPS_high_wk07; BPS_high_wk07
+map00941	Flavonoid biosynthesis	2	BPS_high_wk22; BPS_high_wk40
+map01040	Biosynthesis of unsaturated fatty acids	2	DINP_high_wk07; DINP_high_wk22
+map01051	Biosynthesis of ansamycins	2	DINP_high_wk22; DINP_high_wk40
+map01057	Biosynthesis of type II polyketide products	2	BPS_high_wk07; BPS_high_wk17
+map04974	Protein digestion and absorption	2	BPS_high_wk22; BPS_high_wk22
+map00051	Fructose and mannose metabolism	1	BPS_high_wk22
+map00071	Fatty acid degradation	1	BPS_high_wk22
+map00073	Cutin, suberine and wax biosynthesis	1	BPS_high_wk22
+map00130	Ubiquinone and other terpenoid-quinone biosynthesis	1	BPS_high_wk22
+map00230	Purine metabolism	1	DINP_high_wk22
+map00311	Penicillin and cephalosporin biosynthesis	1	BPS_high_wk22
+map00500	Starch and sucrose metabolism	1	BPS_high_wk22
+map00520	Amino sugar and nucleotide sugar metabolism	1	BPS_high_wk22
+map00522	Biosynthesis of 12-, 14- and 16-membered macrolides	1	BPS_high_wk12
+map00524	Neomycin, kanamycin and gentamicin biosynthesis	1	BPS_high_wk22
+map00525	Acarbose and validamycin biosynthesis	1	DINP_high_wk22
+map00566	Sulfoquinovose metabolism	1	DINP_high_wk22
+map00624	Polycyclic aromatic hydrocarbon degradation	1	BPS_high_wk17
+map00720	Other carbon fixation pathways	1	DINP_high_wk22
+map00791	Atrazine degradation	1	DINP_high_wk22
+map00903	Limonene degradation	1	BPS_high_wk12
+map00910	Nitrogen metabolism	1	BPS_high_wk22
+map00943	Isoflavonoid biosynthesis	1	BPS_high_wk22
+map00996	Biosynthesis of various alkaloids	1	DINP_high_wk22
+map00999	Biosynthesis of various plant secondary metabolites	1	BPS_high_wk22
+map01054	Nonribosomal peptide structures	1	DINP_high_wk22
+map01063	Biosynthesis of alkaloids derived from shikimate pathway	1	DINP_high_wk22
+map01212	Fatty acid metabolism	1	DINP_high_wk07
+map01232	Nucleotide metabolism	1	BPS_high_wk22
+map01523	Antifolate resistance	1	DINP_high_wk22
+map04066	HIF-1 signaling pathway	1	BPS_high_wk22
+map04081	Hormone signaling	1	BPS_high_wk22
+map04082	Neuroactive ligand signaling	1	BPS_high_wk22
+map04918	Thyroid hormone synthesis	1	DINP_high_wk22
+map04927	Cortisol synthesis and secretion	1	BPS_high_wk22
+map04934	Cushing syndrome	1	BPS_high_wk22
+map04978	Mineral absorption	1	BPS_high_wk22
+map05010	Alzheimer disease	1	BPS_high_wk22
+map05146	Amoebiasis	1	BPS_high_wk22
+map05200	Pathways in cancer	1	BPS_high_wk22
+map05310	Asthma	1	DINP_high_wk22
+map07030	Anxiolytics	1	BPS_high_wk22
+map07034	Eicosanoids	1	BPS_high_wk22
+map07216	Catecholamine transferase inhibitors	1	DINP_high_wk22
+map07232	Potassium channel blocking and opening drugs	1	DINP_high_wk22
