@@ -95,8 +95,8 @@ p_summary_by_set <- imap(
                 labs(subtitle = title_i) +
                 annotate("text", x = 0.5, y = 0.5,
                     label = "No age- and exposure-dependent\npathways",
-                    hjust = 0.5, vjust = 0.5, size = 4) +
-                theme(plot.subtitle = element_text(margin = margin(l = 55)))
+                    hjust = 0.5, vjust = 0.5, size = 3) +
+                theme(plot.subtitle = element_text(size = 8.5, margin = margin(l = 40, t = 6)))
 
         } else {
 
@@ -121,7 +121,7 @@ p_summary_by_set <- imap(
                     decreasing_with_age = "#d95f02"
                 )
             ) +
-            theme_cowplot() +
+            theme_cowplot(10) +
             background_grid() +
             theme(axis.text.x  = element_text(angle = 0, hjust = 0.5), legend.position = "none") +
             labs(subtitle = title_i)
@@ -133,8 +133,8 @@ p_summary_by_set <- imap(
 legend_df <- data.frame(
     path_count = c(5, 40),
     direction = c("increasing_with_age", "decreasing_with_age"),
-    culture_day = factor(c("d1", "d1"), levels = levels(summary_by_set_meta$culture_day)),
-    dose = factor(c("low", "low"), levels = c("low", "high"))
+    culture_day = factor(c("d1", "d2"), levels = levels(summary_by_set_meta$culture_day)),
+    dose = factor(c("low", "high"), levels = c("low", "high"))
 )
 
 legend_plot <- ggplot(legend_df, aes(x = culture_day, y = dose)) +
@@ -143,20 +143,21 @@ legend_plot <- ggplot(legend_df, aes(x = culture_day, y = dose)) +
         shape = 21,
         position = position_dodge(width = 0.4)
     ) +
-    scale_size_continuous(name = "Number of pathways") +
+    scale_size_continuous(name = "Pathway\ncount") +
     scale_fill_manual(
-        name = "Trend across inocula",
+        name = "Trend across\ninocula",
         values = c(
             increasing_with_age = "#1b9e77",
             decreasing_with_age = "#d95f02"
         )
     ) +
-    theme_void() +
+    theme_cowplot() +
     theme(
-        legend.title = element_text(face = "bold")
+        legend.title = element_text(face = "bold", size = 10),
+        legend.text = element_text(size = 8)
     )
 
-lgn <- get_plot_component(legend_plot, "guide-box-right", return_all = TRUE)
+lgn <- get_legend(legend_plot)
 
 ### arrange the panel and export
 p_grid <- plot_grid(
@@ -167,14 +168,17 @@ p_grid <- plot_grid(
 
 panel <- plot_grid(
     p_grid,
-    lgn,
-    nrow = 2,
-    rel_height = c(1, 0.2)
+    ggdraw(lgn),
+    align = "h",
+    nrow = 1, ncol = 2,
+    rel_widths = c(1, 0.3)
 )
 
 ggsave(
     filename = file.path("output", "figures", "13_age_and_exposure.png"),
     plot = panel,
     dpi = 300,
-    bg = "white"
+    bg = "white",
+    height = 7,
+    width = 6.5
 )
