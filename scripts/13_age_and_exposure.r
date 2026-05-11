@@ -113,7 +113,10 @@ p_summary_by_set <- imap(
             scale_y_discrete(
                 drop = FALSE
             ) +
-            scale_size_continuous(name = "Number of pathways") +
+            ggplot2::scale_size_continuous(
+                name = "Number of pathways",
+                limits = c(1, 45)
+            ) +
             scale_fill_manual(
                 name = "Trend across inocula",
                 values = c(
