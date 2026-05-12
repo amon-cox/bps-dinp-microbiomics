@@ -1,6 +1,6 @@
 # bps-dinp-microbiomics
 
-Code and data for a study on age‑dependent microbiome and metabolomic responses to BPS and DINP in murine fecal cultures. All analyses and code in this repository were developed by the author(s) for an original research manuscript that has not yet been peer‑reviewed.
+Code and data for a study on age‑dependent microbiome and metabolomic responses to BPS and DINP in murine fecal cultures. All analyses and code in this repository were developed by the authors for an original research manuscript that has not yet been peer‑reviewed.
 
 Working title: Investigating the Influence of Host Age on Murine Microbial Responses to Dietary Contaminants.
 
@@ -22,8 +22,8 @@ Additional authors and full affiliations will be added following manuscript subm
 ## Planned updates
 
 - [x] Add original data and project scaffolding
-- [ ] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility safeguards)
-  - [ ] run_all.r
+- [x] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility safeguards)
+  - [x] run_all.r
   - [x] 0_setup.r
   - [x] 1_preprocess.r
   - [x] 2_lcms_profiling.r
@@ -35,6 +35,8 @@ Additional authors and full affiliations will be added following manuscript subm
   - [x] 8_16s_diversity.r
   - [x] 9_16s_maaslin.r
   - [x] 10_16s_pathway_limma.r
-  - [ ] 11_compare_inocula.r
+  - [x] 11_16s_compare_inocula.r
+  - [x] 12_lcms_compare_inocula.r
+  - [x] 13_age_and_exposure.r
 - [ ] File guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
