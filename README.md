@@ -12,7 +12,7 @@ This repository contains analysis code, data, and results for an unpublished res
 
 Lead author: Amon Cox (<amoncox@gmail.com> | GitHub: amon-cox)
 
-Additional authors and full affiliations will be added following manuscript submission.
+Full authors and affiliations will be added following manuscript submission.
 
 ## License
 
@@ -23,7 +23,7 @@ Additional authors and full affiliations will be added following manuscript subm
 
 To reproduce the contents of `data/processed/` and `output/`, open an R session from the project root directory and run the following:
 
-```{r}
+```r
 install.packages("renv")
 renv::restore()
 source("run_all.r")
@@ -48,5 +48,5 @@ source("run_all.r")
   - [x] 11_16s_compare_inocula.r
   - [x] 12_lcms_compare_inocula.r
   - [x] 13_age_and_exposure.r
-- [ ] File guide
+- [ ] Directory guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.
