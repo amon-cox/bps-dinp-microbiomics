@@ -19,7 +19,17 @@ Additional authors and full affiliations will be added following manuscript subm
 - Code in the `scripts/` directory is licensed under the MIT License (see `LICENSE`).
 - Data, figures, and objects in the `data/` and `output/` directories are licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0; see `LICENSE-CC-BY-4.0`).
 
-## Planned updates
+## How to run
+
+To reproduce the contents of `data/processed/` and `output/`, open an R session from the project root directory and run the following:
+
+```{r}
+install.packages("renv")
+renv::restore()
+source("run_all.r")
+```
+
+## Content migration
 
 - [x] Add original data and project scaffolding
 - [x] Code restructuring and compatability updates (e.g. file.path() insertions,  reproducibility safeguards)
