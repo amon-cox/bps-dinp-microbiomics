@@ -178,7 +178,7 @@ sig_paths_features <- map2(
             ### pathway-level feature lists
             res.path.sig <- res.path |>
                 dplyr::filter(adj.P.Val < .05) |>
-                select(culture_day, pathway, logFC) |>
+                select(culture_day, pathway, log2FC = logFC) |>
                 left_join(
                     y = select(full_annotation, mz__rtMin, pathwayID),
                     by = c("pathway" = "pathwayID"),
@@ -197,7 +197,7 @@ sig_paths_features <- map2(
             
             ### summarize
             res.summarized <- res.merged |>
-                group_by(culture_day, pathway) |>
+                group_by(culture_day, pathway, log2FC) |>
                 summarize(
                     feature_counts = n(),
                     sig_feature_counts = sum(sig_feature),
@@ -215,7 +215,7 @@ sig_paths_features |>
 
 sig_paths_features |>
     bind_rows(.id = "dataset") |>
-    select(-culture_day) |>
+    select(-culture_day, -log2FC) |>
     distinct() |>
     group_by(dataset) |>
     summarize(

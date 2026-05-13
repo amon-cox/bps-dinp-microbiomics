@@ -1,290 +1,290 @@
-dataset	culture_day	pathwayID	FDR_age	slope	direction	rep_features	pathway
-BPS_high_wk07	d1	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk07	d2	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk07	d7	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk07	d1	map00907	0.01503596279924452	0.05752168618085307	increasing_with_age	9	Pinene, camphor and geraniol degradation
-BPS_high_wk07	d2	map00907	0.01503596279924452	0.05752168618085307	increasing_with_age	9	Pinene, camphor and geraniol degradation
-BPS_high_wk07	d7	map01057	8.247484714318904e-11	0.16843217975412514	increasing_with_age	7	Biosynthesis of type II polyketide products
-BPS_high_wk07	d1	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk07	d2	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk07	d7	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk12	d2	map00350	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
-BPS_high_wk12	d2	map00522	0.01573404179345028	0.05054570139040124	increasing_with_age	12	Biosynthesis of 12-, 14- and 16-membered macrolides
-BPS_high_wk12	d1	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
-BPS_high_wk12	d2	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
-BPS_high_wk12	d1	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk12	d2	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk12	d7	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk12	d2	map00901	0.00269267782311566	-0.02422866935435422	decreasing_with_age	17	Indole alkaloid biosynthesis
-BPS_high_wk12	d2	map00903	0.01099955441323147	0.05247288922615367	increasing_with_age	5	Limonene degradation
-BPS_high_wk12	d1	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk12	d2	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk12	d7	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk12	d1	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	71	ABC transporters
-BPS_high_wk12	d2	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	71	ABC transporters
-BPS_high_wk12	d1	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk12	d2	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk12	d7	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk17	d1	map00350	0.04162628983259828	-0.04262239860978027	decreasing_with_age	51	Tyrosine metabolism
-BPS_high_wk17	d1	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	14	Dioxin degradation
-BPS_high_wk17	d2	map00624	0.01573404179345028	-0.1106617860993434	decreasing_with_age	33	Polycyclic aromatic hydrocarbon degradation
-BPS_high_wk17	d1	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk17	d2	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk17	d7	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk17	d1	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk17	d2	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk17	d1	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk17	d2	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk17	d7	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk17	d1	map01057	8.247484714318904e-11	0.16843217975412514	increasing_with_age	6	Biosynthesis of type II polyketide products
-BPS_high_wk17	d1	map01220	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	129	Degradation of aromatic compounds
-BPS_high_wk17	d1	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk17	d2	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk17	d7	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk22	d7	map00040	0.00585458781752286	-0.05288864984274213	decreasing_with_age	71	Pentose and glucuronate interconversions
-BPS_high_wk22	d1	map00051	2.443281201542568e-4	-0.05031265709186428	decreasing_with_age	41	Fructose and mannose metabolism
-BPS_high_wk22	d1	map00052	0.01573404179345028	3.652736247772605e-5	increasing_with_age	27	Galactose metabolism
-BPS_high_wk22	d7	map00053	0.01087341640271985	-0.04314505373004451	decreasing_with_age	53	Ascorbate and aldarate metabolism
-BPS_high_wk22	d1	map00071	0.04850279398597457	-0.05285142849722277	decreasing_with_age	25	Fatty acid degradation
-BPS_high_wk22	d7	map00073	5.648339364420053e-4	0.1172758371144806	increasing_with_age	10	Cutin, suberine and wax biosynthesis
-BPS_high_wk22	d7	map00074	0.0017571441858717	-0.03279575398851805	decreasing_with_age	12	Mycolic acid biosynthesis
-BPS_high_wk22	d7	map00130	0.01573404179345028	-0.0347871886223578	decreasing_with_age	44	Ubiquinone and other terpenoid-quinone biosynthesis
-BPS_high_wk22	d7	map00311	0.00169606223229514	-0.06068623602704683	decreasing_with_age	14	Penicillin and cephalosporin biosynthesis
-BPS_high_wk22	d1	map00350	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
-BPS_high_wk22	d7	map00350	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
-BPS_high_wk22	d1	map00362	1.0978098296181431e-6	-0.0690807777632223	decreasing_with_age	45	Benzoate degradation
-BPS_high_wk22	d7	map00362	1.0978098296181431e-6	-0.0690807777632223	decreasing_with_age	45	Benzoate degradation
-BPS_high_wk22	d2	map00402	1.0599284785246772e-4	-0.14644453275554525	decreasing_with_age	15	Benzoxazinoid biosynthesis
-BPS_high_wk22	d7	map00402	1.0599284785246772e-4	-0.14644453275554525	decreasing_with_age	15	Benzoxazinoid biosynthesis
-BPS_high_wk22	d1	map00450	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
-BPS_high_wk22	d7	map00450	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
-BPS_high_wk22	d7	map00500	0.00260232454049593	-0.02987443218068719	decreasing_with_age	29	Starch and sucrose metabolism
-BPS_high_wk22	d1	map00520	0.00129108623181799	-0.02684228359094717	decreasing_with_age	58	Amino sugar and nucleotide sugar metabolism
-BPS_high_wk22	d7	map00524	1.661145069606722e-4	-0.06772531173176503	decreasing_with_age	31	Neomycin, kanamycin and gentamicin biosynthesis
-BPS_high_wk22	d1	map00572	0.01964225615007538	6.279780502545409e-4	increasing_with_age	3	Arabinogalactan biosynthesis - Mycobacterium
-BPS_high_wk22	d1	map00620	0.02060257856189266	-0.02869738312342932	decreasing_with_age	11	Pyruvate metabolism
-BPS_high_wk22	d1	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
-BPS_high_wk22	d2	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
-BPS_high_wk22	d7	map00621	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
-BPS_high_wk22	d1	map00623	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
-BPS_high_wk22	d7	map00623	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
-BPS_high_wk22	d1	map00630	0.01353605932346168	-0.08035948807972189	decreasing_with_age	29	Glyoxylate and dicarboxylate metabolism
-BPS_high_wk22	d1	map00680	3.578620787983086e-4	-0.05276370374088273	decreasing_with_age	49	Methane metabolism
-BPS_high_wk22	d7	map00680	3.578620787983086e-4	-0.05276370374088273	decreasing_with_age	49	Methane metabolism
-BPS_high_wk22	d1	map00750	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
-BPS_high_wk22	d7	map00750	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
-BPS_high_wk22	d1	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
-BPS_high_wk22	d2	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
-BPS_high_wk22	d7	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
-BPS_high_wk22	d1	map00901	0.00269267782311566	-0.02422866935435422	decreasing_with_age	17	Indole alkaloid biosynthesis
-BPS_high_wk22	d7	map00906	0.01198587459610273	0.04261736404645262	increasing_with_age	25	Carotenoid biosynthesis
-BPS_high_wk22	d7	map00910	4.899728302574296e-4	-0.09684120742954662	decreasing_with_age	9	Nitrogen metabolism
-BPS_high_wk22	d7	map00941	0.04905129540769274	-0.11893121848204131	decreasing_with_age	55	Flavonoid biosynthesis
-BPS_high_wk22	d1	map00943	0.04814186138790013	-0.08414084426701947	decreasing_with_age	28	Isoflavonoid biosynthesis
-BPS_high_wk22	d1	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk22	d2	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk22	d7	map00945	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
-BPS_high_wk22	d1	map00970	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
-BPS_high_wk22	d7	map00970	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
-BPS_high_wk22	d1	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk22	d2	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk22	d7	map00983	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
-BPS_high_wk22	d7	map00999	2.1306523897752172e-8	-0.10393781819817163	decreasing_with_age	46	Biosynthesis of various plant secondary metabolites
-BPS_high_wk22	d1	map01200	0.00227651869105226	-0.05643068841149257	decreasing_with_age	48	Carbon metabolism
-BPS_high_wk22	d1	map01220	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
-BPS_high_wk22	d2	map01220	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
-BPS_high_wk22	d7	map01220	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
-BPS_high_wk22	d2	map01232	1.2908004522298605e-5	-0.14045023886769142	decreasing_with_age	33	Nucleotide metabolism
-BPS_high_wk22	d1	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
-BPS_high_wk22	d2	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
-BPS_high_wk22	d7	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
-BPS_high_wk22	d7	map04024	0.00227651869105226	-0.01511339928532805	decreasing_with_age	9	cAMP signaling pathway
-BPS_high_wk22	d7	map04066	0.01498690150847164	-0.05599535953791273	decreasing_with_age	10	HIF-1 signaling pathway
-BPS_high_wk22	d7	map04081	5.933719152456027e-4	-0.0901386546620317	decreasing_with_age	10	Hormone signaling
-BPS_high_wk22	d2	map04082	0.01348505321418719	-0.04118090829462445	decreasing_with_age	15	Neuroactive ligand signaling
-BPS_high_wk22	d7	map04216	0.00256181441522959	-0.0601184079895134	decreasing_with_age	22	Ferroptosis
-BPS_high_wk22	d1	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk22	d2	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk22	d7	map04923	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
-BPS_high_wk22	d7	map04927	6.285026293582096e-4	-0.09682677047649	decreasing_with_age	8	Cortisol synthesis and secretion
-BPS_high_wk22	d7	map04934	6.285026293582096e-4	-0.09682677047649	decreasing_with_age	8	Cushing syndrome
-BPS_high_wk22	d2	map04974	1.0612122539179705e-4	-0.14229508597236756	decreasing_with_age	30	Protein digestion and absorption
-BPS_high_wk22	d7	map04974	1.0612122539179705e-4	-0.14229508597236756	decreasing_with_age	30	Protein digestion and absorption
-BPS_high_wk22	d7	map04978	0.00472105581009895	-0.06222466545953969	decreasing_with_age	14	Mineral absorption
-BPS_high_wk22	d7	map05010	0.02060257856189266	-0.05342858827093997	decreasing_with_age	8	Alzheimer disease
-BPS_high_wk22	d7	map05146	1.1121522153658348e-4	-0.07756843640686192	decreasing_with_age	9	Amoebiasis
-BPS_high_wk22	d2	map05200	0.00329800135802502	-0.01887897898216565	decreasing_with_age	26	Pathways in cancer
-BPS_high_wk22	d1	map05415	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
-BPS_high_wk22	d2	map05415	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
-BPS_high_wk22	d7	map05415	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
-BPS_high_wk22	d1	map07030	0.03788100529413959	0.02453432770426033	increasing_with_age	2	Anxiolytics
-BPS_high_wk22	d7	map07034	0.0016167383512595	-0.06429833019965628	decreasing_with_age	24	Eicosanoids
-BPS_high_wk40	d1	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk40	d2	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk40	d7	map00760	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
-BPS_high_wk40	d7	map00901	0.00269267782311566	-0.02422866935435422	decreasing_with_age	18	Indole alkaloid biosynthesis
-BPS_high_wk40	d7	map00941	0.04905129540769274	-0.11893121848204131	decreasing_with_age	54	Flavonoid biosynthesis
-BPS_low_wk12	d7	map00450	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
-BPS_low_wk12	d7	map00623	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
-BPS_low_wk12	d7	map00750	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
-BPS_low_wk12	d7	map00970	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
-BPS_low_wk12	d7	map02010	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	67	ABC transporters
-DINP_high_wk07	d1	map00330	0.00147040475526459	0.07304701664757984	increasing_with_age	38	Arginine and proline metabolism
-DINP_high_wk07	d1	map01040	3.770281549521227e-4	0.07499334864487835	increasing_with_age	22	Biosynthesis of unsaturated fatty acids
-DINP_high_wk07	d1	map01212	1.759586802610781e-4	0.07146908900187682	increasing_with_age	16	Fatty acid metabolism
-DINP_high_wk07	d1	map04216	0.00109926922326415	0.09058652676916452	increasing_with_age	22	Ferroptosis
-DINP_high_wk22	d7	map00074	0.01050928193541042	0.04054158742243514	increasing_with_age	12	Mycolic acid biosynthesis
-DINP_high_wk22	d7	map00121	0.00138984787555829	0.11307090409663643	increasing_with_age	19	Secondary bile acid biosynthesis
-DINP_high_wk22	d7	map00230	0.01375630974679902	0.07563233940982016	increasing_with_age	36	Purine metabolism
-DINP_high_wk22	d7	map00290	2.724197686185774e-4	0.20644828656016803	increasing_with_age	14	Valine, leucine and isoleucine biosynthesis
-DINP_high_wk22	d7	map00330	0.00147040475526459	0.07304701664757984	increasing_with_age	38	Arginine and proline metabolism
-DINP_high_wk22	d7	map00525	6.142707971808176e-9	0.1148891569235507	increasing_with_age	2	Acarbose and validamycin biosynthesis
-DINP_high_wk22	d7	map00540	7.167285982591185e-5	0.13742901569160793	increasing_with_age	3	Lipopolysaccharide biosynthesis
-DINP_high_wk22	d7	map00562	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	21	Inositol phosphate metabolism
-DINP_high_wk22	d7	map00566	1.0123662540000768e-4	-0.16269717389861163	decreasing_with_age	17	Sulfoquinovose metabolism
-DINP_high_wk22	d7	map00590	0.00461407957991129	0.01123583398101956	increasing_with_age	56	Arachidonic acid metabolism
-DINP_high_wk22	d7	map00620	0.03514216479796812	0.03831053225316111	increasing_with_age	11	Pyruvate metabolism
-DINP_high_wk22	d7	map00630	0.00228569163619056	0.07448885011998214	increasing_with_age	28	Glyoxylate and dicarboxylate metabolism
-DINP_high_wk22	d7	map00680	0.00336973808873389	0.01007240371316882	increasing_with_age	49	Methane metabolism
-DINP_high_wk22	d7	map00720	0.00336973808873389	0.09271226009443104	increasing_with_age	14	Other carbon fixation pathways
-DINP_high_wk22	d7	map00730	0.01096870080198388	0.0296777892498298	increasing_with_age	13	Thiamine metabolism
-DINP_high_wk22	d7	map00750	0.04196144872389404	0.05694763774649822	increasing_with_age	13	Vitamin B6 metabolism
-DINP_high_wk22	d7	map00791	7.167285982591185e-5	-0.1854567314324617	decreasing_with_age	3	Atrazine degradation
-DINP_high_wk22	d2	map00901	0.00147040475526459	0.03768938810087746	increasing_with_age	19	Indole alkaloid biosynthesis
-DINP_high_wk22	d7	map00901	0.00147040475526459	0.03768938810087746	increasing_with_age	19	Indole alkaloid biosynthesis
-DINP_high_wk22	d7	map00904	0.01600750272921965	0.06098853933827015	increasing_with_age	41	Diterpenoid biosynthesis
-DINP_high_wk22	d7	map00906	7.167285982591185e-5	0.18064026344163547	increasing_with_age	20	Carotenoid biosynthesis
-DINP_high_wk22	d7	map00920	1.316515283820036e-4	0.1323001992138262	increasing_with_age	27	Sulfur metabolism
-DINP_high_wk22	d7	map00930	0.00148399811203875	0.19215222255512537	increasing_with_age	9	Caprolactam degradation
-DINP_high_wk22	d7	map00946	0.04338864493941959	0.07046680702787113	increasing_with_age	42	Degradation of flavonoids
-DINP_high_wk22	d7	map00970	0.00336973808873389	0.09271226009443104	increasing_with_age	13	Aminoacyl-tRNA biosynthesis
-DINP_high_wk22	d7	map00980	0.01148938000454916	0.03179283585284309	increasing_with_age	35	Metabolism of xenobiotics by cytochrome P450
-DINP_high_wk22	d7	map00996	0.01620731134852096	-0.00985940054396934	decreasing_with_age	18	Biosynthesis of various alkaloids
-DINP_high_wk22	d7	map00998	0.00249289213129633	-0.0059666250970028	decreasing_with_age	43	Biosynthesis of various antibiotics
-DINP_high_wk22	d7	map01040	3.770281549521227e-4	0.07499334864487835	increasing_with_age	22	Biosynthesis of unsaturated fatty acids
-DINP_high_wk22	d7	map01051	5.869970447784424e-4	0.00661412509348963	increasing_with_age	16	Biosynthesis of ansamycins
-DINP_high_wk22	d7	map01054	0.01096870080198388	0.14527377319058116	increasing_with_age	5	Nonribosomal peptide structures
-DINP_high_wk22	d7	map01063	0.04196144872389404	0.04074882950446706	increasing_with_age	48	Biosynthesis of alkaloids derived from shikimate pathway
-DINP_high_wk22	d7	map01100	0.00339416502403154	0.04313003560956204	increasing_with_age	518	Metabolic pathways
-DINP_high_wk22	d7	map01110	0.02248853669855484	0.0142834879786524	increasing_with_age	414	Biosynthesis of secondary metabolites
-DINP_high_wk22	d7	map01120	0.00138984787555829	0.05756911711342439	increasing_with_age	289	Microbial metabolism in diverse environments
-DINP_high_wk22	d7	map01200	0.02003731590925258	0.01072127675991495	increasing_with_age	48	Carbon metabolism
-DINP_high_wk22	d7	map01240	0.00740424915039794	0.02971965177978205	increasing_with_age	95	Biosynthesis of cofactors
-DINP_high_wk22	d7	map01502	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	17	Vancomycin resistance
-DINP_high_wk22	d7	map01523	0.00336973808873389	0.09271226009443104	increasing_with_age	9	Antifolate resistance
-DINP_high_wk22	d7	map04024	0.01495288327311528	0.03984693107643893	increasing_with_age	7	cAMP signaling pathway
-DINP_high_wk22	d7	map04216	0.00109926922326415	0.09058652676916452	increasing_with_age	22	Ferroptosis
-DINP_high_wk22	d7	map04918	0.00336973808873389	0.09271226009443104	increasing_with_age	9	Thyroid hormone synthesis
-DINP_high_wk22	d7	map04921	0.04469873058519246	-0.08839224387915515	decreasing_with_age	14	Oxytocin signaling pathway
-DINP_high_wk22	d7	map05204	0.03514216479796812	0.03128669983522499	increasing_with_age	17	Chemical carcinogenesis - DNA adducts
-DINP_high_wk22	d7	map05208	0.03822689392539958	0.03122993448121832	increasing_with_age	18	Chemical carcinogenesis - reactive oxygen species
-DINP_high_wk22	d7	map05310	0.0125372842539982	0.07633003590194824	increasing_with_age	6	Asthma
-DINP_high_wk22	d7	map07216	0.01096870080198388	0.14527377319058116	increasing_with_age	3	Catecholamine transferase inhibitors
-DINP_high_wk22	d7	map07232	0.0125372842539982	0.08942794216496763	increasing_with_age	3	Potassium channel blocking and opening drugs
-DINP_high_wk40	d1	map00040	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
-DINP_high_wk40	d2	map00040	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
-DINP_high_wk40	d7	map00040	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
-DINP_high_wk40	d1	map00052	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
-DINP_high_wk40	d2	map00052	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
-DINP_high_wk40	d7	map00052	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
-DINP_high_wk40	d1	map00053	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
-DINP_high_wk40	d2	map00053	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
-DINP_high_wk40	d7	map00053	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
-DINP_high_wk40	d1	map00074	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
-DINP_high_wk40	d2	map00074	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
-DINP_high_wk40	d7	map00074	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
-DINP_high_wk40	d1	map00121	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
-DINP_high_wk40	d2	map00121	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
-DINP_high_wk40	d7	map00121	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
-DINP_high_wk40	d1	map00240	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
-DINP_high_wk40	d2	map00240	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
-DINP_high_wk40	d7	map00240	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
-DINP_high_wk40	d1	map00290	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
-DINP_high_wk40	d2	map00290	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
-DINP_high_wk40	d7	map00290	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
-DINP_high_wk40	d1	map00330	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
-DINP_high_wk40	d2	map00330	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
-DINP_high_wk40	d7	map00330	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
-DINP_high_wk40	d1	map00410	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
-DINP_high_wk40	d2	map00410	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
-DINP_high_wk40	d7	map00410	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
-DINP_high_wk40	d1	map00540	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
-DINP_high_wk40	d2	map00540	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
-DINP_high_wk40	d7	map00540	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
-DINP_high_wk40	d1	map00562	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
-DINP_high_wk40	d2	map00562	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
-DINP_high_wk40	d7	map00562	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
-DINP_high_wk40	d1	map00572	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
-DINP_high_wk40	d2	map00572	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
-DINP_high_wk40	d7	map00572	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
-DINP_high_wk40	d1	map00590	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
-DINP_high_wk40	d2	map00590	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
-DINP_high_wk40	d7	map00590	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
-DINP_high_wk40	d1	map00620	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
-DINP_high_wk40	d2	map00620	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
-DINP_high_wk40	d7	map00620	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
-DINP_high_wk40	d1	map00623	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
-DINP_high_wk40	d2	map00623	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
-DINP_high_wk40	d7	map00623	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
-DINP_high_wk40	d1	map00680	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
-DINP_high_wk40	d2	map00680	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
-DINP_high_wk40	d7	map00680	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
-DINP_high_wk40	d1	map00730	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
-DINP_high_wk40	d2	map00730	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
-DINP_high_wk40	d7	map00730	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
-DINP_high_wk40	d1	map00901	0.00147040475526459	0.03768938810087746	increasing_with_age	20	Indole alkaloid biosynthesis
-DINP_high_wk40	d2	map00901	0.00147040475526459	0.03768938810087746	increasing_with_age	20	Indole alkaloid biosynthesis
-DINP_high_wk40	d1	map00904	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
-DINP_high_wk40	d2	map00904	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
-DINP_high_wk40	d7	map00904	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
-DINP_high_wk40	d1	map00906	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
-DINP_high_wk40	d2	map00906	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
-DINP_high_wk40	d7	map00906	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
-DINP_high_wk40	d1	map00920	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
-DINP_high_wk40	d2	map00920	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
-DINP_high_wk40	d7	map00920	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
-DINP_high_wk40	d1	map00930	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
-DINP_high_wk40	d2	map00930	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
-DINP_high_wk40	d7	map00930	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
-DINP_high_wk40	d1	map00946	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
-DINP_high_wk40	d2	map00946	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
-DINP_high_wk40	d7	map00946	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
-DINP_high_wk40	d1	map00980	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
-DINP_high_wk40	d2	map00980	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
-DINP_high_wk40	d7	map00980	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
-DINP_high_wk40	d1	map00998	0.00249289213129633	-0.0059666250970028	decreasing_with_age	45	Biosynthesis of various antibiotics
-DINP_high_wk40	d2	map00998	0.00249289213129633	-0.0059666250970028	decreasing_with_age	45	Biosynthesis of various antibiotics
-DINP_high_wk40	d2	map01051	5.869970447784424e-4	0.00661412509348963	increasing_with_age	17	Biosynthesis of ansamycins
-DINP_high_wk40	d1	map01061	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
-DINP_high_wk40	d2	map01061	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
-DINP_high_wk40	d7	map01061	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
-DINP_high_wk40	d1	map01100	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
-DINP_high_wk40	d2	map01100	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
-DINP_high_wk40	d7	map01100	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
-DINP_high_wk40	d1	map01110	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
-DINP_high_wk40	d2	map01110	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
-DINP_high_wk40	d7	map01110	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
-DINP_high_wk40	d1	map01120	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
-DINP_high_wk40	d2	map01120	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
-DINP_high_wk40	d7	map01120	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
-DINP_high_wk40	d1	map01200	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
-DINP_high_wk40	d2	map01200	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
-DINP_high_wk40	d7	map01200	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
-DINP_high_wk40	d1	map01240	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
-DINP_high_wk40	d2	map01240	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
-DINP_high_wk40	d7	map01240	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
-DINP_high_wk40	d1	map01502	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
-DINP_high_wk40	d2	map01502	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
-DINP_high_wk40	d7	map01502	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
-DINP_high_wk40	d1	map04024	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
-DINP_high_wk40	d2	map04024	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
-DINP_high_wk40	d7	map04024	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
-DINP_high_wk40	d1	map04921	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
-DINP_high_wk40	d2	map04921	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
-DINP_high_wk40	d7	map04921	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
-DINP_high_wk40	d1	map05204	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
-DINP_high_wk40	d2	map05204	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
-DINP_high_wk40	d7	map05204	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
-DINP_high_wk40	d1	map05208	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species
-DINP_high_wk40	d2	map05208	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species
-DINP_high_wk40	d7	map05208	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species
+dataset	culture_day	pathwayID	log2FC_exp	FDR_age	slope	direction	rep_features	pathway
+BPS_high_wk07	d1	map00760	2.877883444290015	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk07	d2	map00760	2.960512324733222	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk07	d7	map00760	3.1064089143408644	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk07	d1	map00907	1.0377209345323053	0.01503596279924452	0.05752168618085307	increasing_with_age	9	Pinene, camphor and geraniol degradation
+BPS_high_wk07	d2	map00907	1.0029692975050712	0.01503596279924452	0.05752168618085307	increasing_with_age	9	Pinene, camphor and geraniol degradation
+BPS_high_wk07	d7	map01057	0.6733831462494613	8.247484714318904e-11	0.16843217975412514	increasing_with_age	7	Biosynthesis of type II polyketide products
+BPS_high_wk07	d1	map04923	0.8916907440416538	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk07	d2	map04923	1.199015963611079	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk07	d7	map04923	1.3998893498697482	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk12	d2	map00350	0.7596733226626067	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
+BPS_high_wk12	d2	map00522	-1.917187601081931	0.01573404179345028	0.05054570139040124	increasing_with_age	12	Biosynthesis of 12-, 14- and 16-membered macrolides
+BPS_high_wk12	d1	map00621	0.6621351902898064	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
+BPS_high_wk12	d2	map00621	0.731897079584465	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
+BPS_high_wk12	d1	map00760	3.047188035503463	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk12	d2	map00760	3.0289768301378146	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk12	d7	map00760	2.984487491678445	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk12	d2	map00901	0.6461496547007377	0.00269267782311566	-0.02422866935435422	decreasing_with_age	17	Indole alkaloid biosynthesis
+BPS_high_wk12	d2	map00903	-1.8604402456022444	0.01099955441323147	0.05247288922615367	increasing_with_age	5	Limonene degradation
+BPS_high_wk12	d1	map00945	1.1974901846456256	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk12	d2	map00945	1.9665311080846408	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk12	d7	map00945	1.2454097922303684	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk12	d1	map02010	0.38668769449428514	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	71	ABC transporters
+BPS_high_wk12	d2	map02010	0.43191961277085567	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	71	ABC transporters
+BPS_high_wk12	d1	map04923	1.311364101551751	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk12	d2	map04923	1.359271589346581	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk12	d7	map04923	1.1060882086028212	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk17	d1	map00350	0.6506537675991552	0.04162628983259828	-0.04262239860978027	decreasing_with_age	51	Tyrosine metabolism
+BPS_high_wk17	d1	map00621	0.5816542839719556	0.01591634891118685	-0.1008059552669428	decreasing_with_age	14	Dioxin degradation
+BPS_high_wk17	d2	map00624	-0.8061643414066144	0.01573404179345028	-0.1106617860993434	decreasing_with_age	33	Polycyclic aromatic hydrocarbon degradation
+BPS_high_wk17	d1	map00760	2.601902275219065	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk17	d2	map00760	2.296051897289868	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk17	d7	map00760	2.5725784229449657	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk17	d1	map00945	1.7539172075254708	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk17	d2	map00945	1.4884418191277664	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	12	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk17	d1	map00983	1.2235318090685612	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk17	d2	map00983	1.0229599452479028	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk17	d7	map00983	0.7723365587496626	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk17	d1	map01057	1.0738611881394085	8.247484714318904e-11	0.16843217975412514	increasing_with_age	6	Biosynthesis of type II polyketide products
+BPS_high_wk17	d1	map01220	0.5672868367971095	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	129	Degradation of aromatic compounds
+BPS_high_wk17	d1	map04923	1.0441761294003808	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk17	d2	map04923	0.8814112776090959	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk17	d7	map04923	1.333014063956756	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk22	d7	map00040	0.5558503269536019	0.00585458781752286	-0.05288864984274213	decreasing_with_age	71	Pentose and glucuronate interconversions
+BPS_high_wk22	d1	map00051	0.4850803407401993	2.443281201542568e-4	-0.05031265709186428	decreasing_with_age	41	Fructose and mannose metabolism
+BPS_high_wk22	d1	map00052	0.587707009756442	0.01573404179345028	3.652736247772605e-5	increasing_with_age	27	Galactose metabolism
+BPS_high_wk22	d7	map00053	0.432628651450828	0.01087341640271985	-0.04314505373004451	decreasing_with_age	53	Ascorbate and aldarate metabolism
+BPS_high_wk22	d1	map00071	0.5932610226898758	0.04850279398597457	-0.05285142849722277	decreasing_with_age	25	Fatty acid degradation
+BPS_high_wk22	d7	map00073	0.5845573953318407	5.648339364420053e-4	0.1172758371144806	increasing_with_age	10	Cutin, suberine and wax biosynthesis
+BPS_high_wk22	d7	map00074	1.0295656821127552	0.0017571441858717	-0.03279575398851805	decreasing_with_age	12	Mycolic acid biosynthesis
+BPS_high_wk22	d7	map00130	0.8020091498545064	0.01573404179345028	-0.0347871886223578	decreasing_with_age	44	Ubiquinone and other terpenoid-quinone biosynthesis
+BPS_high_wk22	d7	map00311	0.5032737882777336	0.00169606223229514	-0.06068623602704683	decreasing_with_age	14	Penicillin and cephalosporin biosynthesis
+BPS_high_wk22	d1	map00350	0.7792630246696384	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
+BPS_high_wk22	d7	map00350	0.846286108641401	0.04162628983259828	-0.04262239860978027	decreasing_with_age	52	Tyrosine metabolism
+BPS_high_wk22	d1	map00362	0.4660027311218954	1.0978098296181431e-6	-0.0690807777632223	decreasing_with_age	45	Benzoate degradation
+BPS_high_wk22	d7	map00362	0.5040288416830847	1.0978098296181431e-6	-0.0690807777632223	decreasing_with_age	45	Benzoate degradation
+BPS_high_wk22	d2	map00402	1.229829586405496	1.0599284785246772e-4	-0.14644453275554525	decreasing_with_age	15	Benzoxazinoid biosynthesis
+BPS_high_wk22	d7	map00402	0.8927718392027091	1.0599284785246772e-4	-0.14644453275554525	decreasing_with_age	15	Benzoxazinoid biosynthesis
+BPS_high_wk22	d1	map00450	0.3490569143399039	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
+BPS_high_wk22	d7	map00450	0.7201103403900138	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
+BPS_high_wk22	d7	map00500	0.8285923371864394	0.00260232454049593	-0.02987443218068719	decreasing_with_age	29	Starch and sucrose metabolism
+BPS_high_wk22	d1	map00520	0.5932282912077006	0.00129108623181799	-0.02684228359094717	decreasing_with_age	58	Amino sugar and nucleotide sugar metabolism
+BPS_high_wk22	d7	map00524	0.3844892594820248	1.661145069606722e-4	-0.06772531173176503	decreasing_with_age	31	Neomycin, kanamycin and gentamicin biosynthesis
+BPS_high_wk22	d1	map00572	0.5935573392981143	0.01964225615007538	6.279780502545409e-4	increasing_with_age	3	Arabinogalactan biosynthesis - Mycobacterium
+BPS_high_wk22	d1	map00620	0.5220156586581703	0.02060257856189266	-0.02869738312342932	decreasing_with_age	11	Pyruvate metabolism
+BPS_high_wk22	d1	map00621	1.785103384545926	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
+BPS_high_wk22	d2	map00621	1.0926378567142878	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
+BPS_high_wk22	d7	map00621	1.422934911595651	0.01591634891118685	-0.1008059552669428	decreasing_with_age	15	Dioxin degradation
+BPS_high_wk22	d1	map00623	0.4205909385874697	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
+BPS_high_wk22	d7	map00623	0.5083232988142897	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
+BPS_high_wk22	d1	map00630	0.6012947557588195	0.01353605932346168	-0.08035948807972189	decreasing_with_age	29	Glyoxylate and dicarboxylate metabolism
+BPS_high_wk22	d1	map00680	0.8221929588020609	3.578620787983086e-4	-0.05276370374088273	decreasing_with_age	49	Methane metabolism
+BPS_high_wk22	d7	map00680	0.7311771212363334	3.578620787983086e-4	-0.05276370374088273	decreasing_with_age	49	Methane metabolism
+BPS_high_wk22	d1	map00750	0.4491699654567272	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
+BPS_high_wk22	d7	map00750	0.6136280836066985	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
+BPS_high_wk22	d1	map00760	3.090172974276895	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
+BPS_high_wk22	d2	map00760	2.7266024244131484	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
+BPS_high_wk22	d7	map00760	2.9948852279924383	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	28	Nicotinate and nicotinamide metabolism
+BPS_high_wk22	d1	map00901	1.4543768754818889	0.00269267782311566	-0.02422866935435422	decreasing_with_age	17	Indole alkaloid biosynthesis
+BPS_high_wk22	d7	map00906	0.7783937781729959	0.01198587459610273	0.04261736404645262	increasing_with_age	25	Carotenoid biosynthesis
+BPS_high_wk22	d7	map00910	1.069786556478466	4.899728302574296e-4	-0.09684120742954662	decreasing_with_age	9	Nitrogen metabolism
+BPS_high_wk22	d7	map00941	0.5187857826732162	0.04905129540769274	-0.11893121848204131	decreasing_with_age	55	Flavonoid biosynthesis
+BPS_high_wk22	d1	map00943	0.6773796753699126	0.04814186138790013	-0.08414084426701947	decreasing_with_age	28	Isoflavonoid biosynthesis
+BPS_high_wk22	d1	map00945	2.176640163261681	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk22	d2	map00945	1.8485213175449973	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk22	d7	map00945	2.0057167585152142	8.954553819017383e-5	-0.05744115285824776	decreasing_with_age	13	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+BPS_high_wk22	d1	map00970	0.3364228550891834	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
+BPS_high_wk22	d7	map00970	0.7034352950271865	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
+BPS_high_wk22	d1	map00983	0.8584453332709394	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk22	d2	map00983	0.5975015376181212	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk22	d7	map00983	0.884170333424282	3.6526391895202835e-5	-0.04658523991994158	decreasing_with_age	6	Drug metabolism - other enzymes
+BPS_high_wk22	d7	map00999	0.5874388667776392	2.1306523897752172e-8	-0.10393781819817163	decreasing_with_age	46	Biosynthesis of various plant secondary metabolites
+BPS_high_wk22	d1	map01200	0.7777676476534781	0.00227651869105226	-0.05643068841149257	decreasing_with_age	48	Carbon metabolism
+BPS_high_wk22	d1	map01220	0.963808454183849	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
+BPS_high_wk22	d2	map01220	0.7257874383242743	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
+BPS_high_wk22	d7	map01220	0.8904215234528498	9.191550429214536e-7	-0.11481525030328384	decreasing_with_age	131	Degradation of aromatic compounds
+BPS_high_wk22	d2	map01232	0.7910061720609497	1.2908004522298605e-5	-0.14045023886769142	decreasing_with_age	33	Nucleotide metabolism
+BPS_high_wk22	d1	map02010	0.7328131620292885	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
+BPS_high_wk22	d2	map02010	0.5196548171082339	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
+BPS_high_wk22	d7	map02010	0.8522170549440702	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	70	ABC transporters
+BPS_high_wk22	d7	map04024	0.4833578066730121	0.00227651869105226	-0.01511339928532805	decreasing_with_age	9	cAMP signaling pathway
+BPS_high_wk22	d7	map04066	0.5625112940440354	0.01498690150847164	-0.05599535953791273	decreasing_with_age	10	HIF-1 signaling pathway
+BPS_high_wk22	d7	map04081	0.5478748510763496	5.933719152456027e-4	-0.0901386546620317	decreasing_with_age	10	Hormone signaling
+BPS_high_wk22	d2	map04082	0.3730938410465461	0.01348505321418719	-0.04118090829462445	decreasing_with_age	15	Neuroactive ligand signaling
+BPS_high_wk22	d7	map04216	0.5265434631956016	0.00256181441522959	-0.0601184079895134	decreasing_with_age	22	Ferroptosis
+BPS_high_wk22	d1	map04923	1.6753380838573166	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk22	d2	map04923	1.7737687890985645	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk22	d7	map04923	1.8427164336420616	0.01434311010265099	-0.05154905856805435	decreasing_with_age	14	Regulation of lipolysis in adipocytes
+BPS_high_wk22	d7	map04927	1.0712073974902596	6.285026293582096e-4	-0.09682677047649	decreasing_with_age	8	Cortisol synthesis and secretion
+BPS_high_wk22	d7	map04934	1.0712073974902596	6.285026293582096e-4	-0.09682677047649	decreasing_with_age	8	Cushing syndrome
+BPS_high_wk22	d2	map04974	1.0801310097743535	1.0612122539179705e-4	-0.14229508597236756	decreasing_with_age	30	Protein digestion and absorption
+BPS_high_wk22	d7	map04974	0.7561080963913542	1.0612122539179705e-4	-0.14229508597236756	decreasing_with_age	30	Protein digestion and absorption
+BPS_high_wk22	d7	map04978	0.5342847354270878	0.00472105581009895	-0.06222466545953969	decreasing_with_age	14	Mineral absorption
+BPS_high_wk22	d7	map05010	0.5596428234673996	0.02060257856189266	-0.05342858827093997	decreasing_with_age	8	Alzheimer disease
+BPS_high_wk22	d7	map05146	0.478478989778307	1.1121522153658348e-4	-0.07756843640686192	decreasing_with_age	9	Amoebiasis
+BPS_high_wk22	d2	map05200	0.37226969224155354	0.00329800135802502	-0.01887897898216565	decreasing_with_age	26	Pathways in cancer
+BPS_high_wk22	d1	map05415	0.7032119607415067	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
+BPS_high_wk22	d2	map05415	0.5072579223286853	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
+BPS_high_wk22	d7	map05415	0.7278790124396328	5.455073211862143e-5	-0.07355154363063597	decreasing_with_age	24	Diabetic cardiomyopathy
+BPS_high_wk22	d1	map07030	0.6885335204072576	0.03788100529413959	0.02453432770426033	increasing_with_age	2	Anxiolytics
+BPS_high_wk22	d7	map07034	0.488555532683119	0.0016167383512595	-0.06429833019965628	decreasing_with_age	24	Eicosanoids
+BPS_high_wk40	d1	map00760	1.988031722572228	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk40	d2	map00760	2.1613431509206635	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk40	d7	map00760	2.115946297064278	4.328277472495704e-4	-0.1007147794154106	decreasing_with_age	25	Nicotinate and nicotinamide metabolism
+BPS_high_wk40	d7	map00901	-1.1918626731750612	0.00269267782311566	-0.02422866935435422	decreasing_with_age	18	Indole alkaloid biosynthesis
+BPS_high_wk40	d7	map00941	-0.9895238993900084	0.04905129540769274	-0.11893121848204131	decreasing_with_age	54	Flavonoid biosynthesis
+BPS_low_wk12	d7	map00450	-1.062806800493538	1.4050624925737783e-9	-0.1114368960138509	decreasing_with_age	3	Selenocompound metabolism
+BPS_low_wk12	d7	map00623	-1.062806800493538	7.991343410698323e-7	-0.09457180512644511	decreasing_with_age	36	Toluene degradation
+BPS_low_wk12	d7	map00750	-1.062806800493538	3.7197194671805602e-9	-0.09042005733856344	decreasing_with_age	13	Vitamin B6 metabolism
+BPS_low_wk12	d7	map00970	-0.7913112751570243	1.5152547062618763e-9	-0.10930081830072494	decreasing_with_age	13	Aminoacyl-tRNA biosynthesis
+BPS_low_wk12	d7	map02010	-0.7720122875240537	4.147159594240535e-5	-0.07414222649603373	decreasing_with_age	67	ABC transporters
+DINP_high_wk07	d1	map00330	0.6493370267628853	0.00147040475526459	0.07304701664757984	increasing_with_age	38	Arginine and proline metabolism
+DINP_high_wk07	d1	map01040	-0.47984584417024984	3.770281549521227e-4	0.07499334864487835	increasing_with_age	22	Biosynthesis of unsaturated fatty acids
+DINP_high_wk07	d1	map01212	-0.533923203669903	1.759586802610781e-4	0.07146908900187682	increasing_with_age	16	Fatty acid metabolism
+DINP_high_wk07	d1	map04216	-0.4936620250981583	0.00109926922326415	0.09058652676916452	increasing_with_age	22	Ferroptosis
+DINP_high_wk22	d7	map00074	3.521398982824573	0.01050928193541042	0.04054158742243514	increasing_with_age	12	Mycolic acid biosynthesis
+DINP_high_wk22	d7	map00121	3.596630307676742	0.00138984787555829	0.11307090409663643	increasing_with_age	19	Secondary bile acid biosynthesis
+DINP_high_wk22	d7	map00230	1.54176733083327	0.01375630974679902	0.07563233940982016	increasing_with_age	36	Purine metabolism
+DINP_high_wk22	d7	map00290	3.157041473461865	2.724197686185774e-4	0.20644828656016803	increasing_with_age	14	Valine, leucine and isoleucine biosynthesis
+DINP_high_wk22	d7	map00330	2.266190036204675	0.00147040475526459	0.07304701664757984	increasing_with_age	38	Arginine and proline metabolism
+DINP_high_wk22	d7	map00525	0.8597956788982793	6.142707971808176e-9	0.1148891569235507	increasing_with_age	2	Acarbose and validamycin biosynthesis
+DINP_high_wk22	d7	map00540	2.247822132408988	7.167285982591185e-5	0.13742901569160793	increasing_with_age	3	Lipopolysaccharide biosynthesis
+DINP_high_wk22	d7	map00562	1.8833852358608172	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	21	Inositol phosphate metabolism
+DINP_high_wk22	d7	map00566	2.0405587008207324	1.0123662540000768e-4	-0.16269717389861163	decreasing_with_age	17	Sulfoquinovose metabolism
+DINP_high_wk22	d7	map00590	1.918227489848458	0.00461407957991129	0.01123583398101956	increasing_with_age	56	Arachidonic acid metabolism
+DINP_high_wk22	d7	map00620	2.060230668448849	0.03514216479796812	0.03831053225316111	increasing_with_age	11	Pyruvate metabolism
+DINP_high_wk22	d7	map00630	1.2595493587532671	0.00228569163619056	0.07448885011998214	increasing_with_age	28	Glyoxylate and dicarboxylate metabolism
+DINP_high_wk22	d7	map00680	2.6886221882354886	0.00336973808873389	0.01007240371316882	increasing_with_age	49	Methane metabolism
+DINP_high_wk22	d7	map00720	1.725803189393375	0.00336973808873389	0.09271226009443104	increasing_with_age	14	Other carbon fixation pathways
+DINP_high_wk22	d7	map00730	2.45500782260531	0.01096870080198388	0.0296777892498298	increasing_with_age	13	Thiamine metabolism
+DINP_high_wk22	d7	map00750	1.4625334620765738	0.04196144872389404	0.05694763774649822	increasing_with_age	13	Vitamin B6 metabolism
+DINP_high_wk22	d7	map00791	2.134127826338066	7.167285982591185e-5	-0.1854567314324617	decreasing_with_age	3	Atrazine degradation
+DINP_high_wk22	d2	map00901	1.1350843048552095	0.00147040475526459	0.03768938810087746	increasing_with_age	19	Indole alkaloid biosynthesis
+DINP_high_wk22	d7	map00901	2.2749337305191646	0.00147040475526459	0.03768938810087746	increasing_with_age	19	Indole alkaloid biosynthesis
+DINP_high_wk22	d7	map00904	2.353473480217708	0.01600750272921965	0.06098853933827015	increasing_with_age	41	Diterpenoid biosynthesis
+DINP_high_wk22	d7	map00906	2.2232591420827847	7.167285982591185e-5	0.18064026344163547	increasing_with_age	20	Carotenoid biosynthesis
+DINP_high_wk22	d7	map00920	3.321686104761015	1.316515283820036e-4	0.1323001992138262	increasing_with_age	27	Sulfur metabolism
+DINP_high_wk22	d7	map00930	2.918176787674648	0.00148399811203875	0.19215222255512537	increasing_with_age	9	Caprolactam degradation
+DINP_high_wk22	d7	map00946	2.894051087757674	0.04338864493941959	0.07046680702787113	increasing_with_age	42	Degradation of flavonoids
+DINP_high_wk22	d7	map00970	1.725803189393375	0.00336973808873389	0.09271226009443104	increasing_with_age	13	Aminoacyl-tRNA biosynthesis
+DINP_high_wk22	d7	map00980	1.765249636257297	0.01148938000454916	0.03179283585284309	increasing_with_age	35	Metabolism of xenobiotics by cytochrome P450
+DINP_high_wk22	d7	map00996	0.971856868406978	0.01620731134852096	-0.00985940054396934	decreasing_with_age	18	Biosynthesis of various alkaloids
+DINP_high_wk22	d7	map00998	0.9354134145881732	0.00249289213129633	-0.0059666250970028	decreasing_with_age	43	Biosynthesis of various antibiotics
+DINP_high_wk22	d7	map01040	-0.8978740971587291	3.770281549521227e-4	0.07499334864487835	increasing_with_age	22	Biosynthesis of unsaturated fatty acids
+DINP_high_wk22	d7	map01051	1.786629789513212	5.869970447784424e-4	0.00661412509348963	increasing_with_age	16	Biosynthesis of ansamycins
+DINP_high_wk22	d7	map01054	1.9953613352899648	0.01096870080198388	0.14527377319058116	increasing_with_age	5	Nonribosomal peptide structures
+DINP_high_wk22	d7	map01063	1.9521867321827384	0.04196144872389404	0.04074882950446706	increasing_with_age	48	Biosynthesis of alkaloids derived from shikimate pathway
+DINP_high_wk22	d7	map01100	2.202701983849282	0.00339416502403154	0.04313003560956204	increasing_with_age	518	Metabolic pathways
+DINP_high_wk22	d7	map01110	1.8027272759535768	0.02248853669855484	0.0142834879786524	increasing_with_age	414	Biosynthesis of secondary metabolites
+DINP_high_wk22	d7	map01120	2.3800879443839507	0.00138984787555829	0.05756911711342439	increasing_with_age	289	Microbial metabolism in diverse environments
+DINP_high_wk22	d7	map01200	2.684454117873264	0.02003731590925258	0.01072127675991495	increasing_with_age	48	Carbon metabolism
+DINP_high_wk22	d7	map01240	2.0807082538833854	0.00740424915039794	0.02971965177978205	increasing_with_age	95	Biosynthesis of cofactors
+DINP_high_wk22	d7	map01502	3.545698604798905	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	17	Vancomycin resistance
+DINP_high_wk22	d7	map01523	1.725803189393375	0.00336973808873389	0.09271226009443104	increasing_with_age	9	Antifolate resistance
+DINP_high_wk22	d7	map04024	4.084932751560086	0.01495288327311528	0.03984693107643893	increasing_with_age	7	cAMP signaling pathway
+DINP_high_wk22	d7	map04216	-1.1611583661114362	0.00109926922326415	0.09058652676916452	increasing_with_age	22	Ferroptosis
+DINP_high_wk22	d7	map04918	1.725803189393375	0.00336973808873389	0.09271226009443104	increasing_with_age	9	Thyroid hormone synthesis
+DINP_high_wk22	d7	map04921	1.3955116860703796	0.04469873058519246	-0.08839224387915515	decreasing_with_age	14	Oxytocin signaling pathway
+DINP_high_wk22	d7	map05204	1.5674422097601193	0.03514216479796812	0.03128669983522499	increasing_with_age	17	Chemical carcinogenesis - DNA adducts
+DINP_high_wk22	d7	map05208	1.6390577327555498	0.03822689392539958	0.03122993448121832	increasing_with_age	18	Chemical carcinogenesis - reactive oxygen species
+DINP_high_wk22	d7	map05310	1.4973331034316415	0.0125372842539982	0.07633003590194824	increasing_with_age	6	Asthma
+DINP_high_wk22	d7	map07216	1.9953613352899648	0.01096870080198388	0.14527377319058116	increasing_with_age	3	Catecholamine transferase inhibitors
+DINP_high_wk22	d7	map07232	3.124819667561427	0.0125372842539982	0.08942794216496763	increasing_with_age	3	Potassium channel blocking and opening drugs
+DINP_high_wk40	d1	map00040	3.681841411204593	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
+DINP_high_wk40	d2	map00040	3.198684587267566	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
+DINP_high_wk40	d7	map00040	2.4725437961632672	0.02586717615490027	0.07815184087027602	increasing_with_age	70	Pentose and glucuronate interconversions
+DINP_high_wk40	d1	map00052	6.710069468743513	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
+DINP_high_wk40	d2	map00052	5.392944782198892	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
+DINP_high_wk40	d7	map00052	1.8194386665412023	0.03332462284302348	0.02729904407377744	increasing_with_age	27	Galactose metabolism
+DINP_high_wk40	d1	map00053	3.6818414112045934	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
+DINP_high_wk40	d2	map00053	3.1986845872675693	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
+DINP_high_wk40	d7	map00053	2.472543796163269	0.04338864493941959	0.0764881099899449	increasing_with_age	54	Ascorbate and aldarate metabolism
+DINP_high_wk40	d1	map00074	2.803729235329899	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
+DINP_high_wk40	d2	map00074	2.645809956429958	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
+DINP_high_wk40	d7	map00074	2.6807880717880765	0.01050928193541042	0.04054158742243514	increasing_with_age	14	Mycolic acid biosynthesis
+DINP_high_wk40	d1	map00121	9.305250296176876	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
+DINP_high_wk40	d2	map00121	8.498944113826646	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
+DINP_high_wk40	d7	map00121	6.622731341943264	0.00138984787555829	0.11307090409663643	increasing_with_age	23	Secondary bile acid biosynthesis
+DINP_high_wk40	d1	map00240	3.681841411204593	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
+DINP_high_wk40	d2	map00240	3.198684587267566	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
+DINP_high_wk40	d7	map00240	2.4725437961632672	2.0838957186452307e-6	0.05022009183607053	increasing_with_age	55	Pyrimidine metabolism
+DINP_high_wk40	d1	map00290	3.3574866564169645	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
+DINP_high_wk40	d2	map00290	2.2700118681785884	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
+DINP_high_wk40	d7	map00290	2.525096801847889	2.724197686185774e-4	0.20644828656016803	increasing_with_age	16	Valine, leucine and isoleucine biosynthesis
+DINP_high_wk40	d1	map00330	3.5149735353880565	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
+DINP_high_wk40	d2	map00330	2.6067621324910943	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
+DINP_high_wk40	d7	map00330	2.6370191841485355	0.00147040475526459	0.07304701664757984	increasing_with_age	42	Arginine and proline metabolism
+DINP_high_wk40	d1	map00410	3.681841411204593	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
+DINP_high_wk40	d2	map00410	3.198684587267566	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
+DINP_high_wk40	d7	map00410	2.4725437961632672	4.6480696301576566e-4	0.01876347899656358	increasing_with_age	27	beta-Alanine metabolism
+DINP_high_wk40	d1	map00540	0.973310571007581	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
+DINP_high_wk40	d2	map00540	1.386533033283408	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
+DINP_high_wk40	d7	map00540	1.5332545619701494	7.167285982591185e-5	0.13742901569160793	increasing_with_age	5	Lipopolysaccharide biosynthesis
+DINP_high_wk40	d1	map00562	4.979103753004632	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
+DINP_high_wk40	d2	map00562	4.804988558051172	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
+DINP_high_wk40	d7	map00562	3.281044330911178	1.6360534115572282e-5	0.17738972973595493	increasing_with_age	23	Inositol phosphate metabolism
+DINP_high_wk40	d1	map00572	6.710069468743513	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
+DINP_high_wk40	d2	map00572	5.392944782198892	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
+DINP_high_wk40	d7	map00572	1.8194386665412023	1.0429032106077938e-6	0.0562204572908051	increasing_with_age	5	Arabinogalactan biosynthesis - Mycobacterium
+DINP_high_wk40	d1	map00590	3.086813835448305	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
+DINP_high_wk40	d2	map00590	2.8033102030588317	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
+DINP_high_wk40	d7	map00590	2.4649416582334416	0.00461407957991129	0.01123583398101956	increasing_with_age	64	Arachidonic acid metabolism
+DINP_high_wk40	d1	map00620	4.04611695033876	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
+DINP_high_wk40	d2	map00620	4.084053346606172	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
+DINP_high_wk40	d7	map00620	2.895050939564157	0.03514216479796812	0.03831053225316111	increasing_with_age	13	Pyruvate metabolism
+DINP_high_wk40	d1	map00623	0.9330349816980386	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
+DINP_high_wk40	d2	map00623	1.3703969283361404	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
+DINP_high_wk40	d7	map00623	1.5198110376750211	0.01308910485124869	0.08911124062956403	increasing_with_age	38	Toluene degradation
+DINP_high_wk40	d1	map00680	3.513015142145071	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
+DINP_high_wk40	d2	map00680	3.3644348361393366	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
+DINP_high_wk40	d7	map00680	2.724058691410397	0.00336973808873389	0.01007240371316882	increasing_with_age	53	Methane metabolism
+DINP_high_wk40	d1	map00730	2.803729235329899	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
+DINP_high_wk40	d2	map00730	2.645809956429958	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
+DINP_high_wk40	d7	map00730	2.6807880717880765	0.01096870080198388	0.0296777892498298	increasing_with_age	15	Thiamine metabolism
+DINP_high_wk40	d1	map00901	1.1553682420048192	0.00147040475526459	0.03768938810087746	increasing_with_age	20	Indole alkaloid biosynthesis
+DINP_high_wk40	d2	map00901	1.0330935824414262	0.00147040475526459	0.03768938810087746	increasing_with_age	20	Indole alkaloid biosynthesis
+DINP_high_wk40	d1	map00904	4.633130497788696	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
+DINP_high_wk40	d2	map00904	4.310573674535766	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
+DINP_high_wk40	d7	map00904	3.7758223331923526	0.01600750272921965	0.06098853933827015	increasing_with_age	47	Diterpenoid biosynthesis
+DINP_high_wk40	d1	map00906	4.979103753004632	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
+DINP_high_wk40	d2	map00906	4.804988558051172	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
+DINP_high_wk40	d7	map00906	3.281044330911178	7.167285982591185e-5	0.18064026344163547	increasing_with_age	22	Carotenoid biosynthesis
+DINP_high_wk40	d1	map00920	9.305250296176874	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
+DINP_high_wk40	d2	map00920	8.498944113826646	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
+DINP_high_wk40	d7	map00920	6.622731341943262	1.316515283820036e-4	0.1323001992138262	increasing_with_age	29	Sulfur metabolism
+DINP_high_wk40	d1	map00930	3.3574866564169645	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
+DINP_high_wk40	d2	map00930	2.2700118681785884	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
+DINP_high_wk40	d7	map00930	2.525096801847889	0.00148399811203875	0.19215222255512537	increasing_with_age	11	Caprolactam degradation
+DINP_high_wk40	d1	map00946	3.698429308756833	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
+DINP_high_wk40	d2	map00946	2.8526444118269403	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
+DINP_high_wk40	d7	map00946	2.3738153028700264	0.04338864493941959	0.07046680702787113	increasing_with_age	46	Degradation of flavonoids
+DINP_high_wk40	d1	map00980	5.153257739054443	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
+DINP_high_wk40	d2	map00980	6.078217790553171	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
+DINP_high_wk40	d7	map00980	4.557054188607742	0.01148938000454916	0.03179283585284309	increasing_with_age	37	Metabolism of xenobiotics by cytochrome P450
+DINP_high_wk40	d1	map00998	1.076583865672894	0.00249289213129633	-0.0059666250970028	decreasing_with_age	45	Biosynthesis of various antibiotics
+DINP_high_wk40	d2	map00998	0.9835666633458312	0.00249289213129633	-0.0059666250970028	decreasing_with_age	45	Biosynthesis of various antibiotics
+DINP_high_wk40	d2	map01051	1.028113759996676	5.869970447784424e-4	0.00661412509348963	increasing_with_age	17	Biosynthesis of ansamycins
+DINP_high_wk40	d1	map01061	1.2206126481967383	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
+DINP_high_wk40	d2	map01061	1.0831395264361905	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
+DINP_high_wk40	d7	map01061	0.9065387103775993	0.03822689392539958	-0.03601176163700331	decreasing_with_age	64	Biosynthesis of phenylpropanoids
+DINP_high_wk40	d1	map01100	3.852845655931807	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
+DINP_high_wk40	d2	map01100	3.6407606816199647	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
+DINP_high_wk40	d7	map01100	2.928176986928623	0.00339416502403154	0.04313003560956204	increasing_with_age	570	Metabolic pathways
+DINP_high_wk40	d1	map01110	2.5243063160658905	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
+DINP_high_wk40	d2	map01110	2.3974830028282237	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
+DINP_high_wk40	d7	map01110	1.887230650559494	0.02248853669855484	0.0142834879786524	increasing_with_age	447	Biosynthesis of secondary metabolites
+DINP_high_wk40	d1	map01120	4.671623577140229	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
+DINP_high_wk40	d2	map01120	4.398841421529372	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
+DINP_high_wk40	d7	map01120	3.7107729967078673	0.00138984787555829	0.05756911711342439	increasing_with_age	322	Microbial metabolism in diverse environments
+DINP_high_wk40	d1	map01200	3.944420667562688	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
+DINP_high_wk40	d2	map01200	3.750831917276661	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
+DINP_high_wk40	d7	map01200	1.8717261618423735	0.02003731590925258	0.01072127675991495	increasing_with_age	50	Carbon metabolism
+DINP_high_wk40	d1	map01240	5.530867413828176	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
+DINP_high_wk40	d2	map01240	4.830806865491573	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
+DINP_high_wk40	d7	map01240	4.469598569852971	0.00740424915039794	0.02971965177978205	increasing_with_age	103	Biosynthesis of cofactors
+DINP_high_wk40	d1	map01502	9.305250296176874	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
+DINP_high_wk40	d2	map01502	8.498944113826646	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
+DINP_high_wk40	d7	map01502	6.622731341943262	1.3276917337289943e-4	0.13276915093719907	increasing_with_age	19	Vancomycin resistance
+DINP_high_wk40	d1	map04024	2.803729235329899	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
+DINP_high_wk40	d2	map04024	2.645809956429958	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
+DINP_high_wk40	d7	map04024	2.6807880717880765	0.01495288327311528	0.03984693107643893	increasing_with_age	9	cAMP signaling pathway
+DINP_high_wk40	d1	map04921	3.681841411204593	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
+DINP_high_wk40	d2	map04921	3.198684587267566	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
+DINP_high_wk40	d7	map04921	2.4725437961632672	0.04469873058519246	-0.08839224387915515	decreasing_with_age	16	Oxytocin signaling pathway
+DINP_high_wk40	d1	map05204	5.212339812012532	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
+DINP_high_wk40	d2	map05204	5.8867307260231625	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
+DINP_high_wk40	d7	map05204	4.518186644006594	0.03514216479796812	0.03128669983522499	increasing_with_age	21	Chemical carcinogenesis - DNA adducts
+DINP_high_wk40	d1	map05208	4.876027125655832	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species
+DINP_high_wk40	d2	map05208	5.901640379971372	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species
+DINP_high_wk40	d7	map05208	4.574348494403185	0.03822689392539958	0.03122993448121832	increasing_with_age	20	Chemical carcinogenesis - reactive oxygen species

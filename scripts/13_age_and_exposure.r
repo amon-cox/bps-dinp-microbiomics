@@ -22,7 +22,7 @@ sig_path_annotations <- read_tsv(file.path("output", "tables", "5_lcms_sig_paths
 
 ## intersect age- and exposure-differential pathways
 age_exp_paths <- sig_path_annotations |>
-    select(dataset, culture_day, pathwayID = pathway, feature_counts) |>
+    select(dataset, culture_day, pathwayID = pathway, log2FC_exp = log2FC, feature_counts) |>
     left_join(
         y = meta_sets,
         by = "dataset"
