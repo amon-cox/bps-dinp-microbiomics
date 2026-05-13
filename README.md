@@ -48,5 +48,6 @@ source("run_all.r")
   - [x] 11_16s_compare_inocula.r
   - [x] 12_lcms_compare_inocula.r
   - [x] 13_age_and_exposure.r
+- [ ] Supplementary tables as Quarto document
 - [ ] Directory guide
 - [ ] Upon manuscript acceptance, this repository will be tagged, archived with Zenodo, and updated with the final citation.

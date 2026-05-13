@@ -23,6 +23,7 @@ sig_path_annotations <- read_tsv(file.path("output", "tables", "5_lcms_sig_paths
 ## intersect age- and exposure-differential pathways
 age_exp_paths <- sig_path_annotations |>
     select(dataset, culture_day, pathwayID = pathway, log2FC_exp = log2FC, feature_counts) |>
+    dplyr::filter(abs(log2FC_exp) > 1) |>
     left_join(
         y = meta_sets,
         by = "dataset"
@@ -113,7 +114,7 @@ p_summary_by_set <- imap(
             scale_y_discrete(
                 drop = FALSE
             ) +
-            ggplot2::scale_size_continuous(
+            scale_size_continuous(
                 name = "Number of pathways",
                 limits = c(1, 45)
             ) +
