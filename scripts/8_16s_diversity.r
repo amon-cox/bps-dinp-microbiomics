@@ -123,9 +123,34 @@ beta_div <- imap(
             file.path("output", "tables", paste0("8_16s_betaDiv_PERMANOVA_", nm, ".csv"))
         )
 
-        capture.output(
-            pairwise,
-            file = file.path("output", "tables", paste0("8_16s_betaDiv_pairwise_", nm, ".txt"))
+        ### extract pairwise comparisons, adjust p values, export
+        pair_list <- pairwise[setdiff(names(pairwise), "parent_call")]
+
+        pw_df <- imap_dfr(
+            pair_list,
+            ~ {
+                model_row <- .x |> 
+                    as.data.frame() |>  
+                    rownames_to_column("term") |> 
+                    filter(term == "Model")
+
+                tibble(
+                    comparison = .y,
+                    p_value = model_row$`Pr(>F)`,
+                    R2 = model_row$R2
+                )
+            }
+        ) |>
+            mutate(
+                p_adj = p.adjust(p_value, method = "BH"),
+                group1 = str_replace(comparison, "_vs_.*$", ""),
+                group2 = str_replace(comparison, "^.*_vs_", "")
+            ) |> 
+            select(group1, group2, R2, p_value, p_adj)
+        
+        write_csv(
+            pw_df,
+            file.path("output", "tables", paste0("8_16s_betaDiv_pairwise_", nm, ".csv"))
         )
 
         ### prepare plots to return as list
