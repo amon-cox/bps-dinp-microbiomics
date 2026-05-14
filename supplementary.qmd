@@ -1,0 +1,127 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    geometry: "margin=0.5in"
+    fontsize: 11pt
+execute:
+  echo: false
+  message: false
+  warning: false
+knitr:
+  opts_chunk:
+    fig.align: "center"
+---
+
+**INVESTIGATING THE INFLUENCE OF HOST AGE ON MURINE MICROBIAL RESPONSES TO DIETARY CONTAMINANTS**
+
+Amon Cox, Evelyn Callaway, and Arul Jayaraman\*
+
+Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, United States of America, 77843
+
+\*Correspondence: arulj@tamu.edu
+
+# Supplementary Material
+
+## Table S1 Dunn’s Test for 100 &micro;M BPS Age 22-Weeks Alpha Diversity Scores
+
+Bonferroni-corrected *p* values for each exposure and culture day by alpha-diversity index.
+
+```{r}
+
+library(readr)
+library(knitr)
+library(dplyr)
+library(stringr)
+
+bps_high_wk22_DunnTest <- readr::read_csv(file.path("output", "tables", "8_16s_alphaDiv_DunnTest_BPS_high_wk22.csv")) |>
+    mutate(index = str_replace_all(index, c("1" = "Shannon", "2" = "Inverse Simpson"))) |>
+    rename(`Alpha-Diversity Index` = index, `Adjusted p value` = P.adj) |>
+    select(-Z, -P.unadj)
+
+knitr::kable(bps_high_wk22_DunnTest, digits = 3)
+```
+
+{{< pagebreak >}}
+
+## Table S2 Dunn’s Test for 100 &micro;M DINP Age 22-Weeks Alpha Diversity Scores
+
+Bonferroni-corrected *p* values for each exposure and culture day by alpha-diversity index.
+
+```{r}
+
+dinp_high_wk22_DunnTest <- readr::read_csv(file.path("output", "tables", "8_16s_alphaDiv_DunnTest_DINP_high_wk22.csv")) |>
+    mutate(index = str_replace_all(index, c("1" = "Shannon", "2" = "Inverse Simpson"))) |>
+    rename(`Alpha-Diversity Index` = index, `Adjusted p value` = P.adj) |>
+    select(-Z, -P.unadj)
+
+knitr::kable(dinp_high_wk22_DunnTest, digits = 3)
+```
+
+{{< pagebreak >}}
+
+## Table S3 Dunn’s Test for 100 &micro;M DINP Age 40-Weeks Alpha Diversity Scores
+
+Bonferroni-corrected *p* values for each exposure and culture day by alpha-diversity index.
+
+```{r}
+
+dinp_high_wk40_DunnTest <- readr::read_csv(file.path("output", "tables", "8_16s_alphaDiv_DunnTest_DINP_high_wk40.csv")) |>
+    mutate(index = str_replace_all(index, c("1" = "Shannon", "2" = "Inverse Simpson"))) |>
+    rename(`Alpha-Diversity Index` = index, `Adjusted p value` = P.adj) |>
+    select(-Z, -P.unadj)
+
+knitr::kable(dinp_high_wk40_DunnTest, digits = 3)
+```
+
+{{< pagebreak >}}
+
+## Table S4 Pairwise Comparisons for 100 &micro;M Exposure Beta-Diversity Scores
+
+Adjusted *p* values for multilevel pairwise comparisons of Bray-Curtis dissimilarities for 16S microbial abundances. Each comparison is between a 100 &micro;M exposure and culture day across the host ages.
+
+```{r}
+
+pairwise_ls <- list.files(path = file.path("output", "tables"),
+    pattern = "^8_16s_betaDiv_pairwise_",
+    full.names = TRUE
+) |>
+    purrr::set_names(~ basename(.x) %>% sub("^8_16s_betaDiv_pairwise_(.*)\\.csv$", "\\1", .)) |> 
+    purrr::map(.f = read_csv)
+
+pairwise_df <- pairwise_ls |>
+    bind_rows(.id = "dataset") |>
+    select(-p_value) |>
+    mutate(
+        dataset = gsub("_high_", paste0(" 100", expression("\U00B5"), "M "), dataset),
+        group1 = gsub("bps|dinp", "exposure", group1),
+        group2 = gsub("bps|dinp", "exposure", group2)
+    ) |>
+    select(-R2) |>
+    tidyr::pivot_wider(
+        names_from = dataset,
+        values_from = p_adj
+    )
+
+knitr::kable(pairwise_df, digits = 3)
+```
+
+{{< pagebreak >}}
+
+## Table S5 Age-Dependent, Exposure-Differentiating Pathways
+
+Putative metabolic pathways from LC-MS profiles of microbial cultures (n = 7) that were significantly differentially abundant (*q* < .05, absolute log~2~ fold change > 1) by exposure type and across host age (FDR < .05). Each row represents a specific pathway that met these criteria at a given culture day within a dataset (exposure type, dose level, and host age at time of culture inoculation). ^1^The fold change of the log~2~ pathway intensities (arbitrary units) between exposed and control cultures. ^2^A positive slope indicates the pathway increased in baseline intensity (abundance) within the inocula samples as the mice aged, whereas a negative slope indicates the baseline abundance decreased with host age. ^3^The number of LC-MS peaks putatively identified as chemical compounds which belong to the given pathway in the given dataset for that comparison.
+
+\tiny
+```{r}
+
+age_exp_paths <- read_tsv(file.path("output", "tables", "13_age_exp_pathways.tsv")) |>
+    dplyr::filter(abs(log2FC_exp) > 1) |>
+    select(dataset, culture_day, pathwayID, log2FC_exp, slope, rep_features, pathway) |>
+    arrange(dataset, pathwayID, culture_day) |>
+    rename(`culture day` = culture_day, "\u00B9log\u2082FC" = log2FC_exp, "\u00B2age trend" = slope, "\u00B3features" = rep_features)
+
+knitr::kable(age_exp_paths)
+```
+\normalsize

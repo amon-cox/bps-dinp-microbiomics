@@ -16,3 +16,10 @@ source(file.path("scripts", "10_16s_pathway_limma.r"))
 source(file.path("scripts", "11_16s_compare_inocula."))
 source(file.path("scripts", "12_lcms_compare_inocula.r"))
 source(file.path("scripts", "13_age_and_exposure.r"))
+
+## produce supplementary file
+quarto::quarto_render(
+    input = "supplementary.qmd",
+    output_format = "pdf",
+    output_file = "Supplementary Material.pdf"
+)
