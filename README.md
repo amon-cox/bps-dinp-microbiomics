@@ -4,7 +4,7 @@ This repository contains the data, analytical code, and results for a study on a
 
 Working title: Investigating the Influence of Host Age on Murine Microbial Responses to Dietary Contaminants.
 
-All analyses and code in this repository were produced by the authors for an original research manuscript that has not yet been peer‑reviewed. The code contained here is a reorganization of the original analytical code, incorporating updates for reproducibility and compatability between operating systems. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing, whereupon this repository will be updated with the final citation and archived with Zenodo.
+All analyses and code in this repository were produced by the authors for an original research manuscript that has not yet been peer‑reviewed. The code contained here is a reorganization of the original analytical code, incorporating updates for reproducibility and compatability between operating systems. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing, whereupon this repository will be updated with the final citation and archived with Zenodo. The .fastq files and LC-MS spectra will be available on request, due to file sizes.
 
 ## Authorship and affiliation
 
