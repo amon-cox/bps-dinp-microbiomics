@@ -1,0 +1,102 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    geometry: "margin=0.5in"
+    fontsize: 11pt
+execute:
+  echo: false
+  message: false
+  warning: false
+knitr:
+  opts_chunk:
+    fig.align: "center"
+---
+
+**INVESTIGATING THE INFLUENCE OF HOST AGE ON MURINE MICROBIAL RESPONSES TO DIETARY CONTAMINANTS**
+
+Amon Cox, Evelyn Callaway, and Arul Jayaraman\*
+
+Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, United States of America, 77843
+
+\*Correspondence: arulj@tamu.edu
+
+# Overview of Figures
+
+{{< pagebreak >}}
+
+## Figure 1 Differentiated Metabolomic Profiles for 100 &micro;M BPS Exposure Cultures at Different Mouse Ages
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "2_pcoa_high-BPS.png"))
+```
+
+PCoA of LC-MS metabolomic profiles (n = 7) for 100 &micro;M BPS microbial cultures from mice aged 7 weeks (A), 12 weeks (B), 17 weeks (C), 22 weeks (D), and 40 weeks (E). Points represent individual samples for the inocula (day 0; circle) and days 1 (triangles), 2 (squares), and 7 (crosses). Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and BPS-exposure (yellow). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
+
+{{< pagebreak >}}
+
+## Figure 2 Differentiated Metabolomic Profiles for 100 &micro;M DINP Exposure Cultures at Different Mouse Ages
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "2_pcoa_high-DINP.png"))
+```
+
+PCoA of LC-MS metabolomic profiles (n = 7) for 100 &micro;M DINP microbial cultures from mice aged 7 weeks (A), 12 weeks (B), 17 weeks (C), 22 weeks (D), and 40 weeks (E). Points represent individual samples for the inocula (day 0; circle) and days 1 (triangles), 2 (squares), and 7 (crosses). Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and DINP-exposure (red). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
+
+{{< pagebreak >}}
+
+## Figure 3 Metabolomic Profiles for Select 10 &micro;M Exposure Cultures
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "2_pcoa_low-select.png"))
+```
+
+PCoA of LC-MS metabolomic profiles (n = 7) for the 10 &micro;M contaminant-exposed microbial cultures of BPS age 7-week-old mice (A), BPS age 12-week-old mice (B), BPS age 22-week-old mice (C), DINP age 22-week-old mice (D), and DINP age 40-week-old mice (E). Points represent individual samples for the inocula (day 0; circle) and days 2 (squares) and 7 (crosses). Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and either BPS- (yellow) or DINP-exposure (red). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
+
+{{< pagebreak >}}
+
+## Figure 4 Most Abundant ASVs from 100 &micro;M-Exposure Cultures
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "7_average_rel_ab.png"))
+```
+
+Average relative abundances (%; n = 7) of the most abundant ASVs (y-axis) across culture days and exposure (x-axis) by groups (facets): BPS age 22-week-old mice, DINP age 22-week-old mice, and DINP 40-week-old mice at the 100 &micro;M exposure level. The top 20 most abundant features from each set of inocula samples were combined, producing a list of 24 unique features. In-house labels for unique ASVs are listed in brackets with their lowest confirmed taxonomic label beside them. Brighter coloration indicates greater relative abundance.
+
+{{< pagebreak >}}
+
+## Figure 5 Diversity and Composition Comparisons for 100 &micro;M-Exposure Cultures
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "8_diversity_scores.png"))
+```
+
+Alpha-diversity scores (y-axis) per group (x-axis; n = 7) as violin plots for Shannon and Inverse Simpson diversity indices (facets) for BPS age 22-week-old mice (A), DINP age 22-week-old mice (B), and DINP 40-week-old mice (C) at the 100 &micro;M exposure level. Note the differing scales per index and plot. Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and either BPS- (yellow) or DINP-exposed cultures (red). PCoAs of beta-diversity scores for sets BPS age 22-week-old mice (D), DINP age 22-week-old mice (E), and DINP 40-week-old mice (F). Points represent individual samples for the inocula (day 0; circle) and days 2 (squares) and 7 (crosses). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
+
+{{< pagebreak >}}
+
+## Figure 6 Canonical Correlations Between LC-MS Pathways and 16S Pathways
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "6_cca_pathways.png"))
+```
+
+The three canonical variates for KEGG pathway abundance profiles as predicted by Tax4Fun2 from 16S taxonomic profiles (x-axis) and putatively assigned from LC-MS metabolomic profiles (y-axis) are plotted for 100 &micro;M sets BPS age 22-week-old mice (A, B, C), DINP age 22-week-old mice (E, E, F), and DINP 40-week-old mice (G, H, I). Points represent individual profiles aesthetically grouped by inocula (day 0; blue circles), vehicle controls (green), and either BPS- (yellow) or DINP-exposed (red) samples for days 2 (triangles) and 7 (squares). Canonical correlation coefficients are reported for each canonical variate (panel column) per dataset (panel row).
+
+{{< pagebreak >}}
+
+## Figure 7 Age-Dependent, Exposure-Differentiating Pathway Trends
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "13_age_and_exposure.png"))
+```
+
+Counts of putative metabolic pathways from LC-MS profiles of microbial cultures (n = 7) that were significantly differentially abundant (*q* < .05, absolute log2 fold change > 1) by exposure type (BPS or DINP; columns) and host age (FDR < .05; 7, 12, 17, 22, or 40 weeks old; rows). The data are plotted for each culture day (day 1, 2, or 7; x-axis) and dose level (high / 100 &micro;M or low / 10 &micro;M; y-axis). Point size indicates the quantity of pathways organized by those that increased (green) or decreased (orange) in abundance across the inoculating fecal samples (day 0) from each age, as determined by LMMs and estimated marginal means.
