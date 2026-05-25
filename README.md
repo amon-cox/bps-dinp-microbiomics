@@ -1,10 +1,10 @@
 # bps-dinp-microbiomics
 
-This repository contains the data, analytical code, and results for a study on age‑dependent microbiome and metabolomic responses to BPS and DINP in murine fecal cultures.
+This repository contains the data, analytical code, and results for a study on age‑dependent microbiome and metabolomic responses to BPS and DINP in murine fecal cultures. The [figures](<FIGURES.pdf>) and [supplementary material](<Supplementary Material.pdf>) can be accessed quickly via the links. The sequencing files supporting these analyses will be hosted separately and linked here.
 
 Working title: Investigating the Influence of Host Age on Murine Microbial Responses to Dietary Contaminants.
 
-All analyses and code in this repository were produced by the authors for an original research manuscript that has not yet been peer‑reviewed. The code contained here is a reorganization of the original analytical code, incorporating updates for reproducibility and compatability between operating systems. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing, whereupon this repository will be updated with the final citation and archived with Zenodo. The .fastq files and LC-MS spectra will be available on request, due to file sizes.
+All analyses and code in this repository were produced by the authors for an original research manuscript that has not yet been peer‑reviewed. The code contained here is a reorganization of the original analytical code, incorporating updates for reproducibility and compatability between operating systems. Please do not cite this repository as the definitive source; a DOI and manuscript reference will be added after peer review. Contents may change until the manuscript is submitted, reviewed, and approved for publishing, whereupon this repository will be updated with the final citation and archived with Zenodo.
 
 ## Authorship and affiliation
 
