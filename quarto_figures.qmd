@@ -20,11 +20,9 @@ Amon Cox, Evelyn Callaway, and Arul Jayaraman\*
 
 Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, United States of America, 77843
 
-\*Correspondence: arulj@tamu.edu
+\*Correspondence: <arulj@tamu.edu>
 
 # Overview of Figures
-
-{{< pagebreak >}}
 
 ## Figure 1 Differentiated Metabolomic Profiles for 100 &micro;M BPS Exposure Cultures at Different Mouse Ages
 
@@ -48,18 +46,7 @@ PCoA of LC-MS metabolomic profiles (n = 7) for 100 &micro;M DINP microbial cultu
 
 {{< pagebreak >}}
 
-## Figure 3 Metabolomic Profiles for Select 10 &micro;M Exposure Cultures
-
-```{r}
-
-knitr::include_graphics(file.path("output", "figures", "2_pcoa_low-select.png"))
-```
-
-PCoA of LC-MS metabolomic profiles (n = 7) for the 10 &micro;M contaminant-exposed microbial cultures of BPS age 7-week-old mice (A), BPS age 12-week-old mice (B), BPS age 22-week-old mice (C), DINP age 22-week-old mice (D), and DINP age 40-week-old mice (E). Points represent individual samples for the inocula (day 0; circle) and days 2 (squares) and 7 (crosses). Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and either BPS- (yellow) or DINP-exposure (red). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
-
-{{< pagebreak >}}
-
-## Figure 4 Most Abundant ASVs from 100 &micro;M-Exposure Cultures
+## Figure 3 Most Abundant ASVs from 100 &micro;M-Exposure Cultures
 
 ```{r}
 
@@ -70,7 +57,7 @@ Average relative abundances (%; n = 7) of the most abundant ASVs (y-axis) across
 
 {{< pagebreak >}}
 
-## Figure 5 Diversity and Composition Comparisons for 100 &micro;M-Exposure Cultures
+## Figure 4 Diversity and Composition Comparisons for 100 &micro;M-Exposure Cultures
 
 ```{r}
 
@@ -81,7 +68,7 @@ Alpha-diversity scores (y-axis) per group (x-axis; n = 7) as violin plots for Sh
 
 {{< pagebreak >}}
 
-## Figure 6 Canonical Correlations Between LC-MS Pathways and 16S Pathways
+## Figure 5 Canonical Correlations Between LC-MS Pathways and 16S Pathways
 
 ```{r}
 
@@ -92,7 +79,7 @@ The three canonical variates for KEGG pathway abundance profiles as predicted by
 
 {{< pagebreak >}}
 
-## Figure 7 Age-Dependent, Exposure-Differentiating Pathway Trends
+## Figure 6 Age-Dependent, Exposure-Differentiating Pathway Trends
 
 ```{r}
 

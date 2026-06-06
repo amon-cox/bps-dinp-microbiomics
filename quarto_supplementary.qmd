@@ -20,9 +20,20 @@ Amon Cox, Evelyn Callaway, and Arul Jayaraman\*
 
 Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, United States of America, 77843
 
-\*Correspondence: arulj@tamu.edu
+\*Correspondence: <arulj@tamu.edu>
 
 # Supplementary Material
+
+## Figure S1 Metabolomic Profiles for Select 10 &micro;M Exposure Cultures
+
+```{r}
+
+knitr::include_graphics(file.path("output", "figures", "2_pcoa_low-select.png"))
+```
+
+PCoA of LC-MS metabolomic profiles (n = 7) for the 10 &micro;M contaminant-exposed microbial cultures of BPS age 7-week-old mice (A), BPS age 12-week-old mice (B), BPS age 22-week-old mice (C), DINP age 22-week-old mice (D), and DINP age 40-week-old mice (E). Points represent individual samples for the inocula (day 0; circle) and days 2 (squares) and 7 (crosses). Profiles are aesthetically grouped by exposure condition for inocula (blue), vehicle controls (green), and either BPS- (yellow) or DINP-exposure (red). Ellipses indicate the region expected to contain 95% of samples for each group, assuming a multivariate t-distribution.
+
+{{< pagebreak >}}
 
 ## Table S1 Dunn’s Test for 100 &micro;M BPS Age 22-Weeks Alpha Diversity Scores
 

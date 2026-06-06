@@ -21,7 +21,7 @@ source(file.path("scripts", "13_age_and_exposure.r"))
 quarto::quarto_render(
     input = "quarto_supplementary.qmd",
     output_format = "pdf",
-    output_file = "Supplementary Material.pdf"
+    output_file = "SUPPLEMENTARY MATERIAL.pdf"
 )
 
 ## produce figure overview
